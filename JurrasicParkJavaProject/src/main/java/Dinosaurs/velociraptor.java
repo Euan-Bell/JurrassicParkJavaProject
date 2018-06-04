@@ -1,4 +1,4 @@
 package Dinosaurs;
 
-public class velociraptor {
+public class Velociraptor {
 }

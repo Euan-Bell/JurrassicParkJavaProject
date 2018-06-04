@@ -1,4 +1,4 @@
 package Dinosaurs;
 
-public class diplodocus {
+public class Diplodocus {
 }
