@@ -31,5 +31,5 @@ public class DiplodocusTest {
     public void canGetWeight(){
         assertEquals(15.00,diplodocus.getWeight(),00.01);
    }
-   
+
 }
