@@ -29,4 +29,13 @@ public class CarnivorePaddockTest {
         carnivorePaddock.addDinosaur(dinosaur);
         assertEquals(1,carnivorePaddock.countDinosaurs());
     }
+
+    @Test
+    public void canRemoveDinosaurFromCarnivorePaddock(){
+        carnivorePaddock.addDinosaur(dinosaur);
+        carnivorePaddock.removeDinosaur(dinosaur);
+        assertEquals(0,carnivorePaddock.countDinosaurs());
+
+
+    }
 }

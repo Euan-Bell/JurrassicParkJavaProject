@@ -24,6 +24,11 @@ public class CarnivorePaddock extends Paddock{
         carnivorePaddock.add(dinosaur);
         return carnivorePaddock.size();
     }
+
+    public int removeDinosaur(Dinosaur dinosaur) {
+        carnivorePaddock.remove(dinosaur);
+        return carnivorePaddock.size();
+    }
 }
 
 
