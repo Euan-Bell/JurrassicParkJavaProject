@@ -2,19 +2,21 @@ package Dinosaurs;
 
 import java.util.ArrayList;
 
+
+
 public abstract class Dinosaur {
 
     private String name;
     private String species;
     private double weight;
-    private ArrayList<Food> Stomach;
+    private ArrayList<Food> stomach;
 
     public Dinosaur(String name, String species, Double weight){
 
         this.name = name;
         this.species = species;
         this.weight = weight;
-        this.Food = new ArrayList<>();
+        this.stomach = new ArrayList();
     }
 
 
@@ -30,7 +32,7 @@ public abstract class Dinosaur {
         return weight;
     }
 
-    public ArrayList<Food> getFood() {
-        return this.Food;
+    public ArrayList<Food> getStomach() {
+        return this.stomach;
     }
 }
