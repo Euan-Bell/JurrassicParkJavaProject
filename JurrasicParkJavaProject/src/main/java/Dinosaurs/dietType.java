@@ -1,8 +1,8 @@
 package Dinosaurs;
 
-public enum dietType {
+public enum DietType {
 
-    HERBIVOR,
-    CARNIVOR,
-    OMNIVOR
+    HERBIVORE,
+    CARNIVORE,
+    OMNIVORE
 }
