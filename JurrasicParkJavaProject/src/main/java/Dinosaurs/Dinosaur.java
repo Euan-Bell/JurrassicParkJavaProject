@@ -35,4 +35,13 @@ public abstract class Dinosaur {
     public ArrayList<Food> getStomach() {
         return this.stomach;
     }
+
+
+    public int canBeFed() {
+        return this.getStomach().size();
+    }
+
+    public void feedDinosaur(Food food) {
+        this.stomach.add(food);
+    }
 }
