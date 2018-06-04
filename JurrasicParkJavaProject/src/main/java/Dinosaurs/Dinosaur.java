@@ -2,7 +2,7 @@ package Dinosaurs;
 
 import java.util.ArrayList;
 
-public class Dinosaur {
+public abstract class Dinosaur {
 
     private String name;
     private String species;
