@@ -17,4 +17,7 @@ public abstract class Paddock {
         this.paddock = new ArrayList();
     }
 
+    public  String getName() {
+       return name;
+    }
 }
