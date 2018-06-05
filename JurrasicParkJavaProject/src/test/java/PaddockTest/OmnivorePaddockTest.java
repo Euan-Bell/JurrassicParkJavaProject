@@ -1,17 +1,19 @@
 package PaddockTest;
 
-import Dinosaurs.*;
 import Dinosaurs.DietType;
+import Dinosaurs.Diplodocus;
+import Dinosaurs.Eoraptor;
+import Dinosaurs.Velociraptor;
 import Paddocks.HerbivorePaddock;
+import Paddocks.OmnivorePaddock;
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class HerbivorePaddockTest {
+public class OmnivorePaddockTest {
 
-    HerbivorePaddock herbivorePaddock;
-    Dinosaur dinosaur;
+    OmnivorePaddock omnivorePaddock;
     Diplodocus diplodocus;
     Velociraptor velociraptor;
     Eoraptor eoraptor;
@@ -20,7 +22,7 @@ public class HerbivorePaddockTest {
 
     @Before
     public void before(){
-        herbivorePaddock = new HerbivorePaddock("DiplodocusPaddock", DietType.HERBIVORE, 100);
+        omnivorePaddock = new OmnivorePaddock("EoraptorPaddock", DietType.OMNIVORE, 100);
         diplodocus = new Diplodocus("Allan", "Diplodocus", 15.00, 70, DietType.HERBIVORE);
         velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30, DietType.CARNIVORE);
         eoraptor = new Eoraptor("Owen", "Eoraptor", 00.10, 10, DietType.OMNIVORE);
@@ -29,7 +31,7 @@ public class HerbivorePaddockTest {
 
     @Test
     public void canGetPaddockName(){
-        assertEquals("DiplodocusPaddock", herbivorePaddock.getName());
+        assertEquals("EoraptorPaddock", omnivorePaddock.getName());
     }
 
     @Test
@@ -85,3 +87,5 @@ public class HerbivorePaddockTest {
 }
 
 
+
+}
