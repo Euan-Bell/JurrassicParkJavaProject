@@ -6,8 +6,6 @@ import Dinosaurs.Food;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.ArrayList;
-
 import static org.junit.Assert.assertEquals;
 
 public class DiplodocusTest {
@@ -45,7 +43,6 @@ public class DiplodocusTest {
         assertEquals(0, diplodocus.canBeFed());
     }
 
-
     @Test
     public void canHaveDiplodocusStickToDietTYPE(){
         diplodocus.feedDinosaur(food);
@@ -63,16 +60,6 @@ public class DiplodocusTest {
         diplodocus.feedDinosaur(food2);
         assertEquals(0, diplodocus.canBeFed());
     }
-
-//    check what dietType the dinosaur is,
-//    check was dietType food is,
-//    if they are equal == run .feedDinosaur,
-//    if not just return.
-
-
-
-
-
 
    @Test
     public void canGetAttackPower(){

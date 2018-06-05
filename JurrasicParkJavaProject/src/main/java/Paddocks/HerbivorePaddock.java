@@ -1,9 +1,6 @@
 package Paddocks;
 
 import Dinosaurs.DietType;
-import Dinosaurs.Dinosaur;
-
-import java.util.ArrayList;
 
 public class HerbivorePaddock extends Paddock {
 

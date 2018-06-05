@@ -9,11 +9,11 @@ public abstract class Dinosaur {
     private String name;
     private String species;
     private double weight;
-    private ArrayList<Food> stomach;
+    private ArrayList<Dinosaurs.Food> stomach;
     private int attackPower;
-    private DietType dietType;
+    private Dinosaurs.DietType dietType;
 
-    public Dinosaur(String name, String species, Double weight, int attackPower, DietType DietType){
+    public Dinosaur(String name, String species, Double weight, int attackPower, Dinosaurs.DietType DietType){
 
         this.name = name;
         this.species = species;
@@ -36,7 +36,7 @@ public abstract class Dinosaur {
         return weight;
     }
 
-    public ArrayList<Food> getStomach() {
+    public ArrayList<Dinosaurs.Food> getStomach() {
         return this.stomach;
     }
 
@@ -45,7 +45,7 @@ public abstract class Dinosaur {
         return this.getStomach().size();
     }
 
-    public void feedDinosaur(Food food) {
+    public void feedDinosaur(Dinosaurs.Food food) {
         if (this.getDietType() == food.getFoodType()){
             this.stomach.add(food);
         }

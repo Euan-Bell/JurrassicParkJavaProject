@@ -2,7 +2,6 @@ package Paddocks;
 
 import Dinosaurs.DietType;
 import Dinosaurs.Dinosaur;
-import Dinosaurs.Food;
 
 import java.util.ArrayList;
 

@@ -3,9 +3,9 @@ package Dinosaurs;
 public class Food{
 
     private String foodname;
-    protected DietType dietType;
+    protected Dinosaurs.DietType dietType;
 
-    public Food (String foodname, DietType dietType){
+    public Food (String foodname, Dinosaurs.DietType dietType){
 
         this.foodname = foodname;
         this.dietType = dietType;
@@ -15,7 +15,7 @@ public class Food{
         return this.foodname;
     }
 
-    public DietType getFoodType() {
+    public Dinosaurs.DietType getFoodType() {
         return this.dietType;
     }
 }
