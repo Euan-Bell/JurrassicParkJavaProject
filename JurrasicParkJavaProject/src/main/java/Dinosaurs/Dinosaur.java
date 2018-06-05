@@ -46,4 +46,8 @@ public abstract class Dinosaur {
     public void feedDinosaur(Food food) {
         this.stomach.add(food);
     }
+
+    public int getAttackPower() {
+        return this.attackPower;
+    }
 }

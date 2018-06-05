@@ -17,7 +17,7 @@ public class VelociraptorTest {
 
     @Before
     public void before() {
-        velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15);
+        velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30);
         food = new Food();
     }
 
@@ -45,6 +45,11 @@ public class VelociraptorTest {
     public void canFeedDinosaur(){
         velociraptor.feedDinosaur(food);
         assertEquals(1, velociraptor.canBeFed());
+    }
+
+    @Test
+    public void canGetAttackPower(){
+        assertEquals(30, velociraptor.getAttackPower());
     }
 
 

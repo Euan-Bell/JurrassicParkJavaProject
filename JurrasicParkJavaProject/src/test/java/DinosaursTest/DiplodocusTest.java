@@ -14,7 +14,7 @@ public class DiplodocusTest {
 
     @Before
     public void before(){
-        diplodocus = new Diplodocus("Allan", "Diplodocus",15.00);
+        diplodocus = new Diplodocus("Allan", "Diplodocus",15.00, 70);
     }
 
    @Test
@@ -30,6 +30,11 @@ public class DiplodocusTest {
    @Test
     public void canGetWeight(){
         assertEquals(15.00,diplodocus.getWeight(),00.01);
+   }
+
+   @Test
+    public void canGetAttackPower(){
+        assertEquals(70, diplodocus.getAttackPower());
    }
 
 }
