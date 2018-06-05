@@ -15,12 +15,14 @@ public class DiplodocusTest {
     Diplodocus diplodocus;
     Food food;
     Food food1;
+    Food food2;
 
     @Before
     public void before(){
         diplodocus = new Diplodocus("Allan", "Diplodocus",15.00, 70, DietType.HERBIVORE);
         food = new Food("PlantLife", DietType.HERBIVORE);
         food1 = new Food("CowChunks",DietType.CARNIVORE);
+        food2 = new Food("Chicken Stirfry", DietType.OMNIVORE);
     }
 
    @Test
@@ -53,6 +55,12 @@ public class DiplodocusTest {
     @Test
     public void canHaveDiplodocusUnableToEatAnythingOtherThanDietType(){
         diplodocus.feedDinosaur(food1);
+        assertEquals(0, diplodocus.canBeFed());
+    }
+
+    @Test
+    public void canHaveDiplodocusUnableToEatAnythingOtherThanDietType2(){
+        diplodocus.feedDinosaur(food2);
         assertEquals(0, diplodocus.canBeFed());
     }
 
