@@ -25,18 +25,23 @@ public class HerbivorePaddockTest {
     }
 
     @Test
-    public void canCountDinosaurInCarnivorePaddock(){
+    public void canGetDietTYPE(){
+        assertEquals(DietType.HERBIVORE, herbivorePaddock.getDietType());
+    }
+
+    @Test
+    public void canCountDinosaurInHerbivorePaddock(){
         assertEquals(0,herbivorePaddock.countDinosaurs());
     }
 
     @Test
-    public void canCountDinosaursInCarnivorePaddock(){
+    public void canCountDinosaursInHerbivorePaddock(){
         herbivorePaddock.addDinosaur(dinosaur);
         assertEquals(1,herbivorePaddock.countDinosaurs());
     }
 
     @Test
-    public void canRemoveDinosaurFromCarnivorePaddock(){
+    public void canRemoveDinosaurFromHerbivorePaddock(){
         herbivorePaddock.addDinosaur(dinosaur);
         herbivorePaddock.removeDinosaur(dinosaur);
         assertEquals(0,herbivorePaddock.countDinosaurs());
