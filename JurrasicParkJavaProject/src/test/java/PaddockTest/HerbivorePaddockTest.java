@@ -20,6 +20,11 @@ public class HerbivorePaddockTest {
     }
 
     @Test
+    public void canGetPaddockName(){
+        assertEquals("DiplodocusPaddock", herbivorePaddock.getName());
+    }
+
+    @Test
     public void canCountDinosaurInCarnivorePaddock(){
         assertEquals(0,herbivorePaddock.countDinosaurs());
     }
