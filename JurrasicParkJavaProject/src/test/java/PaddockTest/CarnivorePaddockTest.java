@@ -11,7 +11,6 @@ import static org.junit.Assert.assertEquals;
 public class CarnivorePaddockTest {
 
     CarnivorePaddock carnivorePaddock;
-    Dinosaur dinosaur;
     Velociraptor velociraptor;
     Diplodocus diplodocus;
     Eoraptor eoraptor;

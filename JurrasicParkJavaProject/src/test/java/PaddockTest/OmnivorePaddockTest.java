@@ -49,7 +49,7 @@ public class OmnivorePaddockTest {
     }
 
     @Test
-    public void canCountDinosaursInOmnivorePaddock(){
+    public void canAddDinosaursInOmnivorePaddock(){
         omnivorePaddock.addDinosaur(eoraptor);
         assertEquals(1,omnivorePaddock.countDinosaurs());
     }

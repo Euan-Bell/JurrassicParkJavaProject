@@ -11,7 +11,6 @@ import static org.junit.Assert.assertEquals;
 public class HerbivorePaddockTest {
 
     HerbivorePaddock herbivorePaddock;
-    Dinosaur dinosaur;
     Diplodocus diplodocus;
     Velociraptor velociraptor;
     Eoraptor eoraptor;
@@ -48,7 +47,7 @@ public class HerbivorePaddockTest {
     }
 
     @Test
-    public void canCountDinosaursInHerbivorePaddock(){
+    public void canAddDinosaursInHerbivorePaddock(){
         herbivorePaddock.addDinosaur(diplodocus);
         assertEquals(1,herbivorePaddock.countDinosaurs());
     }
@@ -66,19 +65,19 @@ public class HerbivorePaddockTest {
     }
 
     @Test
-    public void canCarnivorePaddockStickToDietTYPE(){
+    public void canHerbivorePaddockStickToDietTYPE(){
         herbivorePaddock.addDinosaur(diplodocus);
         assertEquals(1, herbivorePaddock.countDinosaurs());
     }
 
     @Test
-    public void canCarnivorePaddockNotTakeInCarnivores(){
+    public void canHerbivorePaddockNotTakeInCarnivores(){
         herbivorePaddock.addDinosaur(velociraptor);
         assertEquals(0, herbivorePaddock.countDinosaurs());
     }
 
     @Test
-    public void canCarnivorePaddockNotTakeInOmnivores(){
+    public void canHerbivorePaddockNotTakeInOmnivores(){
         herbivorePaddock.addDinosaur(eoraptor);
         assertEquals(0, herbivorePaddock.countDinosaurs());
     }
