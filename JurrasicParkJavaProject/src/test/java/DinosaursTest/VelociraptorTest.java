@@ -1,5 +1,6 @@
 package DinosaursTest;
 
+import Dinosaurs.DietType;
 import Dinosaurs.Food;
 import Dinosaurs.Velociraptor;
 import org.junit.Before;
@@ -18,7 +19,7 @@ public class VelociraptorTest {
     @Before
     public void before() {
         velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30);
-        food = new Food();
+        food = new Food("CowChunks", DietType.CARNIVORE);
     }
 
     @Test

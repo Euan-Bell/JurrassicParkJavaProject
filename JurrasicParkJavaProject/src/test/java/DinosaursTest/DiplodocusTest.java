@@ -1,6 +1,8 @@
 package DinosaursTest;
 
+import Dinosaurs.DietType;
 import Dinosaurs.Diplodocus;
+import Dinosaurs.Food;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,10 +13,12 @@ import static org.junit.Assert.assertEquals;
 public class DiplodocusTest {
 
     Diplodocus diplodocus;
+    Food food;
 
     @Before
     public void before(){
-        diplodocus = new Diplodocus("Allan", "Diplodocus",15.00, 70);
+        diplodocus = new Diplodocus("Allan", "Diplodocus",15.00, 70, DietType.HERBIVORE);
+        food = new Food("PlantLife", DietType.HERBIVORE);
     }
 
    @Test
@@ -31,6 +35,17 @@ public class DiplodocusTest {
     public void canGetWeight(){
         assertEquals(15.00,diplodocus.getWeight(),00.01);
    }
+
+    @Test
+    public void canCheckIfDinosaurIsFed(){
+        assertEquals(0, diplodocus.canBeFed());
+    }
+
+    @Test
+    public void canFeedDinosaur(){
+        diplodocus.feedDinosaur(food);
+        assertEquals(1, diplodocus.canBeFed());
+    }
 
    @Test
     public void canGetAttackPower(){

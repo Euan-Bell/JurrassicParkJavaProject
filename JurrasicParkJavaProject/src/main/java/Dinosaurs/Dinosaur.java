@@ -11,14 +11,16 @@ public abstract class Dinosaur {
     private double weight;
     private ArrayList<Food> stomach;
     private int attackPower;
+    private DietType DietType;
 
-    public Dinosaur(String name, String species, Double weight, int attackPower){
+    public Dinosaur(String name, String species, Double weight, int attackPower, DietType DietType){
 
         this.name = name;
         this.species = species;
         this.weight = weight;
         this.stomach = new ArrayList();
         this.attackPower = attackPower;
+        this.DietType = DietType;
     }
 
 

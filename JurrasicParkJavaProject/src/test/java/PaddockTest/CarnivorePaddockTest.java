@@ -46,7 +46,7 @@ public class CarnivorePaddockTest {
     }
 
     @Test
-    public void canCountDinosaursInCarnivorePaddock(){
+    public void canAddDinosaursToCarnivorePaddock(){
         carnivorePaddock.addDinosaur(dinosaur);
         assertEquals(1,carnivorePaddock.countDinosaurs());
     }
