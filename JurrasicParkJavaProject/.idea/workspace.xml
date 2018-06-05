@@ -19,7 +19,7 @@
     <SUITE FILE_PATH="coverage/JurrasicParkJavaProject$VelociraptorTest_canFeedDinosaur.coverage" NAME="VelociraptorTest.canFeedDinosaur Coverage Results" MODIFIED="1528132914740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>DinosaursTest.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/JurrasicParkJavaProject$All_in_JurrasicParkJavaProject_test.coverage" NAME="All in JurrasicParkJavaProject_test Coverage Results" MODIFIED="1528197793728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JurrasicParkJavaProject$All_in_JurrasicParkJavaProject_test.coverage" NAME="All in JurrasicParkJavaProject_test Coverage Results" MODIFIED="1528207925991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/JurrasicParkJavaProject$DiplodocusTest_canGetAttackPower.coverage" NAME="DiplodocusTest.canGetAttackPower Coverage Results" MODIFIED="1528189523296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>DinosaursTest.*</FILTER>
     </SUITE>
@@ -82,11 +82,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Velociraptor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Velociraptor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Velociraptor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VelociraptorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/VelociraptorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="298">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#751#752#0" expanded="true" />
+                <element signature="e#794#795#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1036#1037#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1346#1347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarnivorePaddockTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-138">
+              <caret line="22" column="93" lean-forward="false" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#654#655#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#858#859#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#982#983#0" expanded="true" />
+                <element signature="e#1047#1048#0" expanded="true" />
+                <element signature="e#1112#1113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HerbivorePaddockTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/HerbivorePaddockTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="22" column="88" lean-forward="false" selection-start-line="22" selection-start-column="88" selection-end-line="22" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -405,15 +458,15 @@
         <option value="$PROJECT_DIR$/src/main/java/Paddocks/CarnivorePaddock.java" />
         <option value="$PROJECT_DIR$/src/main/java/Paddocks/Paddock.java" />
         <option value="$PROJECT_DIR$/src/main/java/Paddocks/HerbivorePaddock.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PaddockTest/HerbivorePaddockTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/foodTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Food.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/VelociraptorTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Diplodocus.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/DiplodocusTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Velociraptor.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/VelociraptorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PaddockTest/HerbivorePaddockTest.java" />
       </list>
     </option>
   </component>
@@ -537,7 +590,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DiplodocusTest.canGetDietType">
+  <component name="RunManager" selected="JUnit.All in JurrasicParkJavaProject_test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -604,31 +657,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="CarnivorePaddockTest.canGetDinosaurToAttackFence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="PaddockTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JurrasicParkJavaProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PaddockTest" />
-      <option name="MAIN_CLASS_NAME" value="PaddockTest.CarnivorePaddockTest" />
-      <option name="METHOD_NAME" value="canGetDinosaurToAttackFence" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="DiplodocusTest.canGetDietType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -667,6 +695,31 @@
       <option name="PACKAGE_NAME" value="PaddockTest" />
       <option name="MAIN_CLASS_NAME" value="PaddockTest.HerbivorePaddockTest" />
       <option name="METHOD_NAME" value="canGetDinosaurToAttackFence" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="VelociraptorTest.canGetDietType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DinosaursTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JurrasicParkJavaProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DinosaursTest" />
+      <option name="MAIN_CLASS_NAME" value="DinosaursTest.VelociraptorTest" />
+      <option name="METHOD_NAME" value="canGetDietType" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -740,19 +793,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canGetDinosaurToAttackFence" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetDinosaurToAttackFence" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDietType" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetDinosaurToAttackFence" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDietType" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.VelociraptorTest.canGetDietType" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDietType" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetDinosaurToAttackFence" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canGetDinosaurToAttackFence" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.VelociraptorTest.canGetDietType" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDietType" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetDinosaurToAttackFence" />
       </list>
     </recent_temporary>
   </component>
@@ -776,6 +829,9 @@
     <history-entry file="All_in_JurrasicParkJavaProject_test - 2018.06.05 at 12h 23m 15s.xml">
       <configuration name="All in JurrasicParkJavaProject_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_JurrasicParkJavaProject_test - 2018.06.05 at 15h 12m 07s.xml">
+      <configuration name="All in JurrasicParkJavaProject_test" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="CarnivorePaddockTest_canAddDinosaursToCarnivorePaddock - 2018.06.05 at 14h 29m 51s.xml">
       <configuration name="CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock" configurationId="JUnit" />
     </history-entry>
@@ -787,9 +843,6 @@
     </history-entry>
     <history-entry file="CarnivorePaddockTest_canGetDinosaurToAttackFence - 2018.06.05 at 11h 29m 19s.xml">
       <configuration name="CarnivorePaddockTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarnivorePaddockTest_canGetPaddockName - 2018.06.05 at 10h 11m 24s.xml">
-      <configuration name="CarnivorePaddockTest.canGetPaddockName" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HerbivorePaddockTest_canGetDinosaurToAttackFence - 2018.06.05 at 11h 35m 28s.xml">
       <configuration name="HerbivorePaddockTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
@@ -810,19 +863,19 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28109854" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13408723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22913505" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -875,7 +928,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -924,47 +977,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/HerbivorePaddockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#741#742#0" expanded="false" />
-            <element signature="e#821#822#0" expanded="false" />
-            <element signature="e#873#874#0" expanded="false" />
-            <element signature="e#945#946#0" expanded="false" />
-            <element signature="e#1010#1011#0" expanded="false" />
-            <element signature="e#1075#1076#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/foodTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="817">
-          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#758#759#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -981,14 +998,6 @@
             <element signature="e#660#661#0" expanded="true" />
             <element signature="e#698#699#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/VelociraptorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,6 +1050,53 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/VelociraptorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+            <element signature="e#794#795#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="22" column="93" lean-forward="false" selection-start-line="22" selection-start-column="93" selection-end-line="22" selection-end-column="93" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1112#1113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/HerbivorePaddockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="22" column="88" lean-forward="false" selection-start-line="22" selection-start-column="88" selection-end-line="22" selection-end-column="88" />
           <folding />
         </state>
       </provider>

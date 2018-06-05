@@ -20,7 +20,7 @@ public class CarnivorePaddockTest {
     @Before
     public void before(){
         carnivorePaddock = new CarnivorePaddock("VelociraptorPaddock", DietType.CARNIVORE, 100);
-        velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30);
+        velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30, DietType.CARNIVORE);
 
 
     }

@@ -18,7 +18,7 @@ public class VelociraptorTest {
 
     @Before
     public void before() {
-        velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30);
+        velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30, DietType.CARNIVORE);
         food = new Food("CowChunks", DietType.CARNIVORE);
     }
 
@@ -35,6 +35,11 @@ public class VelociraptorTest {
     @Test
     public void canGetWeight(){
         assertEquals(00.15, velociraptor.getWeight(),00.01);
+    }
+
+    @Test
+    public void canGetDietType(){
+        assertEquals(DietType.CARNIVORE, velociraptor.getDietType());
     }
 
     @Test

@@ -20,7 +20,7 @@ public class HerbivorePaddockTest {
     @Before
     public void before(){
         herbivorePaddock = new HerbivorePaddock("DiplodocusPaddock", DietType.HERBIVORE, 100);
-        diplodocus = new Diplodocus("Allan", "Diplodocus", 15.00, 70);
+        diplodocus = new Diplodocus("Allan", "Diplodocus", 15.00, 70, DietType.HERBIVORE);
     }
 
     @Test
