@@ -14,11 +14,13 @@ public class DiplodocusTest {
 
     Diplodocus diplodocus;
     Food food;
+    Food food1;
 
     @Before
     public void before(){
         diplodocus = new Diplodocus("Allan", "Diplodocus",15.00, 70, DietType.HERBIVORE);
         food = new Food("PlantLife", DietType.HERBIVORE);
+        food1 = new Food("CowChunks",DietType.CARNIVORE);
     }
 
    @Test
@@ -41,16 +43,17 @@ public class DiplodocusTest {
         assertEquals(0, diplodocus.canBeFed());
     }
 
+
     @Test
-    public void canFeedDinosaur(){
+    public void canHaveDiplodocusStickToDietTYPE(){
         diplodocus.feedDinosaur(food);
         assertEquals(1, diplodocus.canBeFed());
     }
 
     @Test
-    public void canHaveDiplodocusEatDiet(){
-        diplodocus.feedDinosaur(food);
-        assertEquals(1, diplodocus.canBeFed());
+    public void canHaveDiplodocusUnableToEatAnythingOtherThanDietType(){
+        diplodocus.feedDinosaur(food1);
+        assertEquals(0, diplodocus.canBeFed());
     }
 
 //    check what dietType the dinosaur is,
