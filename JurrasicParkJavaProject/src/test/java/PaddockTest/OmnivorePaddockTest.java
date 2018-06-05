@@ -4,7 +4,6 @@ import Dinosaurs.DietType;
 import Dinosaurs.Diplodocus;
 import Dinosaurs.Eoraptor;
 import Dinosaurs.Velociraptor;
-import Paddocks.HerbivorePaddock;
 import Paddocks.OmnivorePaddock;
 import org.junit.Before;
 import org.junit.Test;
@@ -36,56 +35,56 @@ public class OmnivorePaddockTest {
 
     @Test
     public void canGetDietTYPE(){
-        assertEquals(DietType.HERBIVORE, herbivorePaddock.getDietType());
+        assertEquals(DietType.OMNIVORE, omnivorePaddock.getDietType());
     }
 
     @Test
     public void canGetFenceDurability(){
-        assertEquals(100, herbivorePaddock.getFenceDurability());
+        assertEquals(100, omnivorePaddock.getFenceDurability());
     }
 
     @Test
-    public void canCountDinosaurInHerbivorePaddock(){
-        assertEquals(0,herbivorePaddock.countDinosaurs());
+    public void canCountDinosaurInOmnivorePaddock(){
+        assertEquals(0,omnivorePaddock.countDinosaurs());
     }
 
     @Test
-    public void canCountDinosaursInHerbivorePaddock(){
-        herbivorePaddock.addDinosaur(diplodocus);
-        assertEquals(1,herbivorePaddock.countDinosaurs());
+    public void canCountDinosaursInOmnivorePaddock(){
+        omnivorePaddock.addDinosaur(eoraptor);
+        assertEquals(1,omnivorePaddock.countDinosaurs());
     }
 
     @Test
-    public void canRemoveDinosaurFromHerbivorePaddock(){
-        herbivorePaddock.addDinosaur(diplodocus);
-        herbivorePaddock.removeDinosaur(diplodocus);
-        assertEquals(0,herbivorePaddock.countDinosaurs());
+    public void canRemoveDinosaurFromOmnivorePaddock(){
+        omnivorePaddock.addDinosaur(eoraptor);
+        omnivorePaddock.removeDinosaur(eoraptor);
+        assertEquals(0,omnivorePaddock.countDinosaurs());
     }
 
     @Test
     public void canGetDinosaurToAttackFence(){
-        assertEquals(30,  herbivorePaddock.getFenceDurability() - diplodocus.getAttackPower());
+        assertEquals(30,  omnivorePaddock.getFenceDurability() - diplodocus.getAttackPower());
     }
 
     @Test
-    public void canCarnivorePaddockStickToDietTYPE(){
-        herbivorePaddock.addDinosaur(diplodocus);
-        assertEquals(1, herbivorePaddock.countDinosaurs());
+    public void canOmnivorePaddockStickToDietTYPE(){
+        omnivorePaddock.addDinosaur(eoraptor);
+        assertEquals(1, omnivorePaddock.countDinosaurs());
     }
 
     @Test
-    public void canCarnivorePaddockNotTakeInCarnivores(){
-        herbivorePaddock.addDinosaur(velociraptor);
-        assertEquals(0, herbivorePaddock.countDinosaurs());
+    public void canOmnivorePaddockNotTakeInCarnivores(){
+        omnivorePaddock.addDinosaur(velociraptor);
+        assertEquals(0, omnivorePaddock.countDinosaurs());
     }
 
     @Test
-    public void canCarnivorePaddockNotTakeInOmnivores(){
-        herbivorePaddock.addDinosaur(eoraptor);
-        assertEquals(0, herbivorePaddock.countDinosaurs());
+    public void canOmnivorePaddockNotTakeInHerbivores(){
+        omnivorePaddock.addDinosaur(diplodocus);
+        assertEquals(0, omnivorePaddock.countDinosaurs());
     }
 }
 
 
 
-}
+
