@@ -60,5 +60,12 @@ public class HerbivorePaddockTest {
     public void canGetDinosaurToAttackFence(){
         assertEquals(30,  herbivorePaddock.getFenceDurability() - diplodocus.getAttackPower());
     }
-}
+
+//    @Test
+//    public void canGetFenceDurabilityAfterDinoAttack(){
+//        herbivorePaddock.getFenceDurability() - diplodocus.getAttackPower();
+//        assertEquals(30,herbivorePaddock.getFenceDurability());
+
+    }
+
 

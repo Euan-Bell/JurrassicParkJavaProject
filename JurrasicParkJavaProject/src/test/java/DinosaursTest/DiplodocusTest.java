@@ -47,6 +47,22 @@ public class DiplodocusTest {
         assertEquals(1, diplodocus.canBeFed());
     }
 
+    @Test
+    public void canHaveDiplodocusEatDiet(){
+        diplodocus.feedDinosaur(food);
+        assertEquals(1, diplodocus.canBeFed());
+    }
+
+//    check what dietType the dinosaur is,
+//    check was dietType food is,
+//    if they are equal == run .feedDinosaur,
+//    if not just return.
+
+
+
+
+
+
    @Test
     public void canGetAttackPower(){
         assertEquals(70, diplodocus.getAttackPower());

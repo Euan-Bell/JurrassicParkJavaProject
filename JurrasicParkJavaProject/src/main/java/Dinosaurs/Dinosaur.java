@@ -46,7 +46,9 @@ public abstract class Dinosaur {
     }
 
     public void feedDinosaur(Food food) {
-        this.stomach.add(food);
+        if (this.getDietType() == food.getFoodType()){
+            this.stomach.add(food);
+        }
     }
 
     public int getAttackPower() {
