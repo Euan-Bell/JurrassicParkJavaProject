@@ -2,6 +2,7 @@ package PaddockTest;
 
 import Dinosaurs.DietType;
 import Dinosaurs.Dinosaur;
+import Dinosaurs.Diplodocus;
 import Dinosaurs.Velociraptor;
 import Paddocks.CarnivorePaddock;
 import org.junit.Before;
@@ -14,6 +15,7 @@ public class CarnivorePaddockTest {
     CarnivorePaddock carnivorePaddock;
     Dinosaur dinosaur;
     Velociraptor velociraptor;
+    Diplodocus diplodocus;
 
 
 
@@ -21,9 +23,11 @@ public class CarnivorePaddockTest {
     public void before(){
         carnivorePaddock = new CarnivorePaddock("VelociraptorPaddock", DietType.CARNIVORE, 100);
         velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30, DietType.CARNIVORE);
+        diplodocus = new Diplodocus("Allan", "DiploDocus", 15.00, 70, DietType.HERBIVORE);
+        }
 
 
-    }
+
 
     @Test
     public void canGetPaddockName(){
@@ -47,14 +51,14 @@ public class CarnivorePaddockTest {
 
     @Test
     public void canAddDinosaursToCarnivorePaddock(){
-        carnivorePaddock.addDinosaur(dinosaur);
+        carnivorePaddock.addDinosaur(velociraptor);
         assertEquals(1,carnivorePaddock.countDinosaurs());
     }
 
     @Test
     public void canRemoveDinosaurFromCarnivorePaddock(){
-        carnivorePaddock.addDinosaur(dinosaur);
-        carnivorePaddock.removeDinosaur(dinosaur);
+        carnivorePaddock.addDinosaur(velociraptor);
+        carnivorePaddock.removeDinosaur(velociraptor);
         assertEquals(0,carnivorePaddock.countDinosaurs());
     }
 
@@ -65,8 +69,14 @@ public class CarnivorePaddockTest {
 
     @Test
     public void canCarnivorePaddockStickToDietTYPE(){
-        carnivorePaddock.addDinosaur(dinosaur);
+        carnivorePaddock.addDinosaur(velociraptor);
         assertEquals(1, carnivorePaddock.countDinosaurs());
+    }
+
+    @Test
+    public void canCarnivorePaddockNotTakeInHerbivores(){
+        carnivorePaddock.addDinosaur(diplodocus);
+        assertEquals(0, carnivorePaddock.countDinosaurs());
     }
 
 }

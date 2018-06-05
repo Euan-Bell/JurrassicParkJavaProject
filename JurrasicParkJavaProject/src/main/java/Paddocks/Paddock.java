@@ -2,6 +2,7 @@ package Paddocks;
 
 import Dinosaurs.DietType;
 import Dinosaurs.Dinosaur;
+import Dinosaurs.Food;
 
 import java.util.ArrayList;
 
@@ -36,9 +37,10 @@ public abstract class Paddock {
         return this.paddock.size();
     }
 
-    public int addDinosaur(Dinosaur dinosaur) {
-        paddock.add(dinosaur);
-        return paddock.size();
+    public void addDinosaur(Dinosaur dinosaur) {
+        if (this.getDietType() == dinosaur.getDietType()){
+            this.paddock.add(dinosaur);
+        }
     }
 
     public int removeDinosaur(Dinosaur dinosaur) {
