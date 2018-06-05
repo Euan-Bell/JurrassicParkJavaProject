@@ -20,4 +20,8 @@ public abstract class Paddock {
     public  String getName() {
        return name;
     }
+
+    public DietType getDietType() {
+        return dietType;
+    }
 }

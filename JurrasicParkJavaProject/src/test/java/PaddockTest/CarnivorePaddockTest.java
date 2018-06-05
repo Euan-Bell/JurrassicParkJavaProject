@@ -25,6 +25,11 @@ public class CarnivorePaddockTest {
     }
 
     @Test
+    public void canGetDietTYPE(){
+        assertEquals(DietType.CARNIVORE, carnivorePaddock.getDietType());
+    }
+
+    @Test
     public void canCountDinosaurInCarnivorePaddock(){
         assertEquals(0,carnivorePaddock.countDinosaurs());
     }
