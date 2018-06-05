@@ -69,8 +69,6 @@ public class VelociraptorTest {
         assertEquals(0, velociraptor.canBeFed());
     }
 
-
-
     @Test
     public void canGetAttackPower(){
         assertEquals(30, velociraptor.getAttackPower());

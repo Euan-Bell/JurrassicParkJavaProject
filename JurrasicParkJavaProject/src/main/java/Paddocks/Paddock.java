@@ -31,4 +31,18 @@ public abstract class Paddock {
     public int getFenceDurability() {
         return fenceDurability;
     }
+
+    public int countDinosaurs() {
+        return this.paddock.size();
+    }
+
+    public int addDinosaur(Dinosaur dinosaur) {
+        paddock.add(dinosaur);
+        return paddock.size();
+    }
+
+    public int removeDinosaur(Dinosaur dinosaur) {
+         paddock.remove(dinosaur);
+        return paddock.size();
+    }
 }

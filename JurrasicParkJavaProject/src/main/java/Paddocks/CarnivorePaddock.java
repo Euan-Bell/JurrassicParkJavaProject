@@ -7,28 +7,15 @@ import java.util.ArrayList;
 
 import static Dinosaurs.DietType.CARNIVORE;
 
-public class CarnivorePaddock extends Paddock{
+public class CarnivorePaddock extends Paddock {
 
-    private ArrayList<Dinosaur> carnivorePaddock;
+//    private ArrayList<Dinosaur> carnivorePaddock;
 
-    public CarnivorePaddock(String name, DietType dietType, int fenceDurability){
+    public CarnivorePaddock(String name, DietType dietType, int fenceDurability) {
         super(name, dietType, fenceDurability);
-        this.carnivorePaddock = new ArrayList<>();
-    }
-
-    public int countDinosaurs() {
-        return this.carnivorePaddock.size();
-    }
-
-    public int addDinosaur(Dinosaur dinosaur) {
-        carnivorePaddock.add(dinosaur);
-        return carnivorePaddock.size();
-    }
-
-    public int removeDinosaur(Dinosaur dinosaur) {
-        carnivorePaddock.remove(dinosaur);
-        return carnivorePaddock.size();
     }
 }
+
+
 
 

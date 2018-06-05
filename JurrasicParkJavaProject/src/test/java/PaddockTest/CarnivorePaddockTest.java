@@ -63,4 +63,10 @@ public class CarnivorePaddockTest {
        assertEquals(70,  carnivorePaddock.getFenceDurability() - velociraptor.getAttackPower());
     }
 
+    @Test
+    public void canCarnivorePaddockStickToDietTYPE(){
+        carnivorePaddock.addDinosaur(dinosaur);
+        assertEquals(1, carnivorePaddock.countDinosaurs());
+    }
+
 }
