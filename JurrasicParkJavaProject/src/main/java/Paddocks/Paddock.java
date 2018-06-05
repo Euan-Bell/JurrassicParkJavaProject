@@ -9,12 +9,12 @@ public abstract class Paddock {
 
     private String name;
     private  DietType dietType;
-    private ArrayList<Dinosaur> Paddock;
+    private ArrayList<Dinosaur> paddock;
 
     public Paddock( String name, DietType dietType){
         this.name = name;
         this.dietType = dietType;
-        this.Paddock = new ArrayList();
+        this.paddock = new ArrayList();
     }
 
 }
