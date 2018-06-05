@@ -1,9 +1,7 @@
 package PaddockTest;
 
+import Dinosaurs.*;
 import Dinosaurs.DietType;
-import Dinosaurs.Dinosaur;
-import Dinosaurs.Diplodocus;
-import Dinosaurs.Velociraptor;
 import Paddocks.CarnivorePaddock;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,6 +14,7 @@ public class CarnivorePaddockTest {
     Dinosaur dinosaur;
     Velociraptor velociraptor;
     Diplodocus diplodocus;
+    Eoraptor eoraptor;
 
 
 
@@ -24,6 +23,7 @@ public class CarnivorePaddockTest {
         carnivorePaddock = new CarnivorePaddock("VelociraptorPaddock", DietType.CARNIVORE, 100);
         velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30, DietType.CARNIVORE);
         diplodocus = new Diplodocus("Allan", "DiploDocus", 15.00, 70, DietType.HERBIVORE);
+        eoraptor = new Eoraptor("Owen", "Eoraptor", 10.00, 10, DietType.OMNIVORE);
         }
 
 
@@ -76,6 +76,12 @@ public class CarnivorePaddockTest {
     @Test
     public void canCarnivorePaddockNotTakeInHerbivores(){
         carnivorePaddock.addDinosaur(diplodocus);
+        assertEquals(0, carnivorePaddock.countDinosaurs());
+    }
+
+    @Test
+    public void canCarnivorePaddockNotTakeInOmnivores(){
+        carnivorePaddock.addDinosaur(eoraptor);
         assertEquals(0, carnivorePaddock.countDinosaurs());
     }
 

@@ -45,14 +45,14 @@ public class HerbivorePaddockTest {
 
     @Test
     public void canCountDinosaursInHerbivorePaddock(){
-        herbivorePaddock.addDinosaur(dinosaur);
+        herbivorePaddock.addDinosaur(diplodocus);
         assertEquals(1,herbivorePaddock.countDinosaurs());
     }
 
     @Test
     public void canRemoveDinosaurFromHerbivorePaddock(){
-        herbivorePaddock.addDinosaur(dinosaur);
-        herbivorePaddock.removeDinosaur(dinosaur);
+        herbivorePaddock.addDinosaur(diplodocus);
+        herbivorePaddock.removeDinosaur(diplodocus);
         assertEquals(0,herbivorePaddock.countDinosaurs());
     }
 
@@ -61,10 +61,7 @@ public class HerbivorePaddockTest {
         assertEquals(30,  herbivorePaddock.getFenceDurability() - diplodocus.getAttackPower());
     }
 
-//    @Test
-//    public void canGetFenceDurabilityAfterDinoAttack(){
-//        herbivorePaddock.getFenceDurability() - diplodocus.getAttackPower();
-//        assertEquals(30,herbivorePaddock.getFenceDurability());
+
 
     }
 
