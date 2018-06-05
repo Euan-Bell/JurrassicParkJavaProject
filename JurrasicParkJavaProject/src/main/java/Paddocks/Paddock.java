@@ -10,11 +10,14 @@ public abstract class Paddock {
     private String name;
     private  DietType dietType;
     private ArrayList<Dinosaur> paddock;
+    private int fenceDurability;
 
-    public Paddock( String name, DietType dietType){
+    public Paddock( String name, DietType dietType, int fenceDurability){
         this.name = name;
         this.dietType = dietType;
         this.paddock = new ArrayList();
+        this.fenceDurability = fenceDurability;
+
     }
 
     public  String getName() {
