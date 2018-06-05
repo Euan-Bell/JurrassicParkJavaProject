@@ -11,7 +11,7 @@ public abstract class Dinosaur {
     private double weight;
     private ArrayList<Food> stomach;
     private int attackPower;
-    private DietType DietType;
+    private DietType dietType;
 
     public Dinosaur(String name, String species, Double weight, int attackPower, DietType DietType){
 
@@ -20,7 +20,7 @@ public abstract class Dinosaur {
         this.weight = weight;
         this.stomach = new ArrayList();
         this.attackPower = attackPower;
-        this.DietType = DietType;
+        this.dietType = DietType;
     }
 
 
@@ -51,5 +51,9 @@ public abstract class Dinosaur {
 
     public int getAttackPower() {
         return this.attackPower;
+    }
+
+    public Dinosaurs.DietType getDietType() {
+        return dietType;
     }
 }

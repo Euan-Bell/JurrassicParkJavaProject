@@ -34,8 +34,8 @@
       <file leaf-file-name="Dinosaur.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-69">
-              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="-89">
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
                 <element signature="e#874#875#0" expanded="true" />
                 <element signature="e#921#922#0" expanded="true" />
@@ -43,6 +43,8 @@
                 <element signature="e#1002#1003#0" expanded="true" />
                 <element signature="e#1037#1038#0" expanded="true" />
                 <element signature="e#1076#1077#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiplodocusTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DiplodocusTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/DiplodocusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-133">
-              <caret line="19" column="87" lean-forward="false" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+            <state relative-caret-position="462">
+              <caret line="56" column="59" lean-forward="false" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#531#532#0" expanded="true" />
@@ -73,7 +75,19 @@
                 <element signature="e#803#804#0" expanded="true" />
                 <element signature="e#1097#1098#0" expanded="true" />
                 <element signature="e#1157#1158#0" expanded="true" />
+                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1274#1275#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Velociraptor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Velociraptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -388,7 +402,6 @@
         <option value="$PROJECT_DIR$/src/main/java/Paddocks/CarnivorPaddock.java" />
         <option value="$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorPaddockTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/DietType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Velociraptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/Paddocks/CarnivorePaddock.java" />
         <option value="$PROJECT_DIR$/src/main/java/Paddocks/Paddock.java" />
         <option value="$PROJECT_DIR$/src/main/java/Paddocks/HerbivorePaddock.java" />
@@ -397,9 +410,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Food.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/VelociraptorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Diplodocus.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/DiplodocusTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Velociraptor.java" />
       </list>
     </option>
   </component>
@@ -523,7 +537,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock">
+  <component name="RunManager" selected="JUnit.DiplodocusTest.canGetDietType">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -615,6 +629,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="DiplodocusTest.canGetDietType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DinosaursTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JurrasicParkJavaProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DinosaursTest" />
+      <option name="MAIN_CLASS_NAME" value="DinosaursTest.DiplodocusTest" />
+      <option name="METHOD_NAME" value="canGetDietType" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="HerbivorePaddockTest.canGetDinosaurToAttackFence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -628,31 +667,6 @@
       <option name="PACKAGE_NAME" value="PaddockTest" />
       <option name="MAIN_CLASS_NAME" value="PaddockTest.HerbivorePaddockTest" />
       <option name="METHOD_NAME" value="canGetDinosaurToAttackFence" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="HerbivorePaddockTest.canGetFenceDurability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="PaddockTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JurrasicParkJavaProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PaddockTest" />
-      <option name="MAIN_CLASS_NAME" value="PaddockTest.HerbivorePaddockTest" />
-      <option name="METHOD_NAME" value="canGetFenceDurability" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -726,19 +740,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetFenceDurability" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canGetDinosaurToAttackFence" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetDinosaurToAttackFence" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canGetDinosaurToAttackFence" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetDinosaurToAttackFence" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDietType" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetDinosaurToAttackFence" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canGetDinosaurToAttackFence" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetFenceDurability" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDietType" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canAddDinosaursToCarnivorePaddock" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canGetDinosaurToAttackFence" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canGetDinosaurToAttackFence" />
       </list>
     </recent_temporary>
   </component>
@@ -796,14 +810,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -970,14 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Velociraptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/VelociraptorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -988,8 +994,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="-89">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
             <element signature="e#874#875#0" expanded="true" />
             <element signature="e#921#922#0" expanded="true" />
@@ -997,6 +1003,8 @@
             <element signature="e#1002#1003#0" expanded="true" />
             <element signature="e#1037#1038#0" expanded="true" />
             <element signature="e#1076#1077#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1011,8 +1019,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/DiplodocusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-133">
-          <caret line="19" column="87" lean-forward="false" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+        <state relative-caret-position="462">
+          <caret line="56" column="59" lean-forward="false" selection-start-line="56" selection-start-column="59" selection-end-line="56" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#531#532#0" expanded="true" />
@@ -1023,7 +1031,17 @@
             <element signature="e#803#804#0" expanded="true" />
             <element signature="e#1097#1098#0" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
+            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Velociraptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
