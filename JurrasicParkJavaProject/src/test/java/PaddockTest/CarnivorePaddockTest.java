@@ -16,7 +16,7 @@ public class CarnivorePaddockTest {
 
     @Before
     public void before(){
-        carnivorePaddock = new CarnivorePaddock("VelociraptorPaddock", DietType.CARNIVORE);
+        carnivorePaddock = new CarnivorePaddock("VelociraptorPaddock", DietType.CARNIVORE, 100);
     }
 
     @Test
@@ -27,6 +27,11 @@ public class CarnivorePaddockTest {
     @Test
     public void canGetDietTYPE(){
         assertEquals(DietType.CARNIVORE, carnivorePaddock.getDietType());
+    }
+
+    @Test
+    public void canGetFenceDurability(){
+        assertEquals(100, carnivorePaddock.getFenceDurability());
     }
 
     @Test

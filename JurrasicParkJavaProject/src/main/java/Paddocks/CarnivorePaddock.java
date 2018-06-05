@@ -11,8 +11,8 @@ public class CarnivorePaddock extends Paddock{
 
     private ArrayList<Dinosaur> carnivorePaddock;
 
-    public CarnivorePaddock(String name, DietType dietType){
-        super(name, dietType);
+    public CarnivorePaddock(String name, DietType dietType, int fenceDurability){
+        super(name, dietType, fenceDurability);
         this.carnivorePaddock = new ArrayList<>();
     }
 

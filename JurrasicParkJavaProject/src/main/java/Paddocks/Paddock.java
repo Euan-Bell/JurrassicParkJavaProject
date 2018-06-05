@@ -27,4 +27,8 @@ public abstract class Paddock {
     public DietType getDietType() {
         return dietType;
     }
+
+    public int getFenceDurability() {
+        return fenceDurability;
+    }
 }
