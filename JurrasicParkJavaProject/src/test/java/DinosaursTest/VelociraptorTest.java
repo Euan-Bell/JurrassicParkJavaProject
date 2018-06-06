@@ -79,7 +79,8 @@ public class VelociraptorTest {
 
     @Test
     public void canGetDinosaurToAttackFence(){
-        assertEquals(70,  carnivorePaddock.getFenceDurability() - velociraptor.getAttackPower());
+        velociraptor.attackFence(carnivorePaddock);
+        assertEquals(70, carnivorePaddock.getFenceDurability());
     }
 
 //    have dinosaur attack fence until broken ( fenceDurability =< 0 )
@@ -92,7 +93,7 @@ public class VelociraptorTest {
 //        assertEquals(1, carnivorePaddock.countDinosaurs());
 //    }
 
-
+   
 
 
 }

@@ -62,6 +62,12 @@ public abstract class Dinosaur {
         return dietType;
     }
 
+    public void attackFence(Paddock paddock) {
+        paddock.setFenceDurability(paddock.getFenceDurability() - this.getAttackPower());
+
+    }
+
+
 //    public void canRampage(Paddock paddock) {
 //        while (paddock.getFenceDurability() >= 0 - this.getAttackPower()){
 //            paddock.removeDinosaur(this);
