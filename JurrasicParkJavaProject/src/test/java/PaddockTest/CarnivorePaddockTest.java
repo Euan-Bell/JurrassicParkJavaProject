@@ -83,7 +83,7 @@ public class CarnivorePaddockTest {
     }
 
     @Test
-    public void canCarnivorePaddockNotTakeInHerbivores(){
+    public void canCarnivorePaddockNotTakeInHerbivoreDietTYPE(){
         carnivorePaddock.addDinosaur(diplodocus);
         assertEquals(0, carnivorePaddock.countDinosaurs());
     }

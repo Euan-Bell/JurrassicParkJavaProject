@@ -14,6 +14,8 @@ public class HerbivorePaddockTest {
     Diplodocus diplodocus;
     Velociraptor velociraptor;
     Eoraptor eoraptor;
+    Trex trex;
+    Stegosaurus stegosaurus;
 
 
 
@@ -23,6 +25,8 @@ public class HerbivorePaddockTest {
         diplodocus = new Diplodocus("Allan", "Diplodocus", 15.00, 70, DietType.HERBIVORE);
         velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30, DietType.CARNIVORE);
         eoraptor = new Eoraptor("Owen", "Eoraptor", 00.10, 10, DietType.OMNIVORE);
+        trex = new Trex("Hammond", "Trex", 09.00,100, DietType.CARNIVORE);
+        stegosaurus = new Stegosaurus( "Henry", "Stegosaurus", 07.00, 50, DietType.HERBIVORE);
 
     }
 
@@ -71,13 +75,25 @@ public class HerbivorePaddockTest {
     }
 
     @Test
+    public void canHerbivorePaddockTakeInAllHerbivoreDietTYPE(){
+        herbivorePaddock.addDinosaur(stegosaurus);
+        assertEquals(1, herbivorePaddock.countDinosaurs());
+    }
+
+    @Test
     public void canHerbivorePaddockNotTakeInCarnivores(){
         herbivorePaddock.addDinosaur(velociraptor);
         assertEquals(0, herbivorePaddock.countDinosaurs());
     }
 
     @Test
-    public void canHerbivorePaddockNotTakeInOmnivores(){
+    public void canHerbivorePaddockRejectAllCarnivoreDietTYPE(){
+        herbivorePaddock.addDinosaur(trex);
+        assertEquals(0, herbivorePaddock.countDinosaurs());
+    }
+
+    @Test
+    public void canHerbivorePaddockNotTakeInOmnivoreDietTYPE(){
         herbivorePaddock.addDinosaur(eoraptor);
         assertEquals(0, herbivorePaddock.countDinosaurs());
     }
