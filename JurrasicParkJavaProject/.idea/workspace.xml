@@ -55,8 +55,8 @@
       <file leaf-file-name="StegosaurusTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/StegosaurusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="82" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="26" column="95" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1919#1920#0" expanded="true" />
@@ -176,12 +176,12 @@
       <file leaf-file-name="DiplodocusTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/DiplodocusTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="72" column="3" lean-forward="false" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
+            <state relative-caret-position="231">
+              <caret line="79" column="22" lean-forward="false" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1700#1701#0" expanded="true" />
-                <element signature="e#1773#1774#0" expanded="true" />
+                <element signature="e#1869#1870#0" expanded="true" />
+                <element signature="e#1942#1943#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -662,7 +662,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrexTest.canGetDinosaurToAttackFence">
+  <component name="RunManager" selected="JUnit.DiplodocusTest.canGetDinosaurToAttackFence">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -684,44 +684,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="CarnivorePaddockTest.canSetFenceDurability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiplodocusTest.canGetDinosaurToAttackFence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="PaddockTest.*" />
+          <option name="PATTERN" value="DinosaursTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="JurrasicParkJavaProject_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PaddockTest" />
-      <option name="MAIN_CLASS_NAME" value="PaddockTest.CarnivorePaddockTest" />
-      <option name="METHOD_NAME" value="canSetFenceDurability" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="HerbivorePaddockTest.canSetFenceDurability" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="PaddockTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JurrasicParkJavaProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PaddockTest" />
-      <option name="MAIN_CLASS_NAME" value="PaddockTest.HerbivorePaddockTest" />
-      <option name="METHOD_NAME" value="canSetFenceDurability" />
+      <option name="PACKAGE_NAME" value="DinosaursTest" />
+      <option name="MAIN_CLASS_NAME" value="DinosaursTest.DiplodocusTest" />
+      <option name="METHOD_NAME" value="canGetDinosaurToAttackFence" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -747,6 +722,31 @@
       <option name="PACKAGE_NAME" value="PaddockTest" />
       <option name="MAIN_CLASS_NAME" value="PaddockTest.OmnivorePaddockTest" />
       <option name="METHOD_NAME" value="canSetFenceDurability" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="StegosaurusTest.canGetDinosaurToAttackFence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DinosaursTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JurrasicParkJavaProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DinosaursTest" />
+      <option name="MAIN_CLASS_NAME" value="DinosaursTest.StegosaurusTest" />
+      <option name="METHOD_NAME" value="canGetDinosaurToAttackFence" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -871,18 +871,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.VelociraptorTest.canGetDinosaurToAttackFence" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canSetFenceDurability" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canSetFenceDurability" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.OmnivorePaddockTest.canSetFenceDurability" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TrexTest.canGetDinosaurToAttackFence" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OmnivorePaddockTest.canSetFenceDurability" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TrexTest.canGetDinosaurToAttackFence" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StegosaurusTest.canGetDinosaurToAttackFence" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDinosaurToAttackFence" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TrexTest.canGetDinosaurToAttackFence" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.VelociraptorTest.canGetDinosaurToAttackFence" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.OmnivorePaddockTest.canSetFenceDurability" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canSetFenceDurability" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canSetFenceDurability" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDinosaurToAttackFence" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StegosaurusTest.canGetDinosaurToAttackFence" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TrexTest.canGetDinosaurToAttackFence" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.VelociraptorTest.canGetDinosaurToAttackFence" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.OmnivorePaddockTest.canSetFenceDurability" />
       </list>
     </recent_temporary>
   </component>
@@ -909,23 +909,23 @@
     <history-entry file="CarnivorePaddockTest_canSetFenceDurability - 2018.06.06 at 15h 32m 35s.xml">
       <configuration name="CarnivorePaddockTest.canSetFenceDurability" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DiplodocusTest_canGetDinosaurToAttackFence - 2018.06.06 at 19h 42m 37s.xml">
+      <configuration name="DiplodocusTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="HerbivorePaddockTest_canSetFenceDurability - 2018.06.06 at 15h 39m 14s.xml">
       <configuration name="HerbivorePaddockTest.canSetFenceDurability" configurationId="JUnit" />
     </history-entry>
     <history-entry file="OmnivorePaddockTest_canSetFenceDurability - 2018.06.06 at 15h 40m 58s.xml">
       <configuration name="OmnivorePaddockTest.canSetFenceDurability" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StegosaurusTest_canGetDinosaurToAttackFence - 2018.06.06 at 19h 41m 06s.xml">
+      <configuration name="StegosaurusTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="TrexTest_canGetDinosaurToAttackFence - 2018.06.06 at 19h 36m 43s.xml">
       <configuration name="TrexTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TrexTest_canGetDinosaurToAttackFence - 2018.06.06 at 19h 36m 53s.xml">
       <configuration name="TrexTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VelociraptorTest_canGetDinosaurToAttackFence - 2018.06.06 at 11h 18m 13s.xml">
-      <configuration name="VelociraptorTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VelociraptorTest_canGetDinosaurToAttackFence - 2018.06.06 at 11h 18m 55s.xml">
-      <configuration name="VelociraptorTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
     </history-entry>
     <history-entry file="VelociraptorTest_canGetDinosaurToAttackFence - 2018.06.06 at 11h 20m 12s.xml">
       <configuration name="VelociraptorTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
@@ -946,7 +946,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1382,18 +1382,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/StegosaurusTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="78" column="1" lean-forward="true" selection-start-line="78" selection-start-column="1" selection-end-line="82" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
-            <element signature="e#1994#1995#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/EoraptorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-234">
@@ -1404,14 +1392,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/DiplodocusTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/StegosaurusTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="72" column="3" lean-forward="false" selection-start-line="72" selection-start-column="3" selection-end-line="72" selection-end-column="3" />
+        <state relative-caret-position="153">
+          <caret line="26" column="95" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
+            <element signature="e#1919#1920#0" expanded="true" />
+            <element signature="e#1994#1995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/DiplodocusTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="79" column="22" lean-forward="false" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1869#1870#0" expanded="true" />
+            <element signature="e#1942#1943#0" expanded="true" />
           </folding>
         </state>
       </provider>

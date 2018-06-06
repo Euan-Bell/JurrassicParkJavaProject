@@ -3,6 +3,7 @@ package DinosaursTest;
 import Dinosaurs.DietType;
 import Dinosaurs.Diplodocus;
 import Dinosaurs.Food;
+import Paddocks.HerbivorePaddock;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,6 +15,7 @@ public class DiplodocusTest {
     Food food;
     Food food1;
     Food food2;
+    HerbivorePaddock herbivorePaddock;
 
     @Before
     public void before(){
@@ -21,6 +23,7 @@ public class DiplodocusTest {
         food = new Food("PlantLife", DietType.HERBIVORE);
         food1 = new Food("CowChunks",DietType.CARNIVORE);
         food2 = new Food("Chicken Stirfry", DietType.OMNIVORE);
+        herbivorePaddock = new HerbivorePaddock("Diplodocus Paddock", DietType.CARNIVORE, 100);
     }
 
    @Test
@@ -70,6 +73,12 @@ public class DiplodocusTest {
     public void canGetDietType(){
         assertEquals(DietType.HERBIVORE, diplodocus.getDietType());
    }
-   
+
+    @Test
+    public void canGetDinosaurToAttackFence(){
+        diplodocus.attackFence(herbivorePaddock);
+        assertEquals(30, herbivorePaddock.getFenceDurability());
+    }
+
 
 }
