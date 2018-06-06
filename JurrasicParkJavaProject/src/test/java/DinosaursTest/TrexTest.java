@@ -3,7 +3,6 @@ package DinosaursTest;
 import Dinosaurs.DietType;
 import Dinosaurs.Food;
 import Dinosaurs.Trex;
-
 import org.junit.Before;
 import org.junit.Test;
 
