@@ -3,6 +3,8 @@ package DinosaursTest;
 import Dinosaurs.DietType;
 import Dinosaurs.Food;
 import Dinosaurs.Velociraptor;
+import Paddocks.CarnivorePaddock;
+import Paddocks.Paddock;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -13,10 +15,10 @@ import static org.junit.Assert.assertEquals;
 public class VelociraptorTest {
 
     Velociraptor velociraptor;
-    ArrayList<Food> stomach;
     Food food;
     Food food1;
     Food food2;
+    CarnivorePaddock carnivorePaddock;
 
     @Before
     public void before() {
@@ -24,6 +26,7 @@ public class VelociraptorTest {
         food = new Food("CowChunks", DietType.CARNIVORE);
         food1 = new Food("PlantLife", DietType.HERBIVORE);
         food2 = new Food("Chicken StirFry", DietType.OMNIVORE);
+        carnivorePaddock = new CarnivorePaddock("Velociraptor Paddock", DietType.CARNIVORE, 100);
     }
 
     @Test
@@ -73,6 +76,21 @@ public class VelociraptorTest {
     public void canGetAttackPower(){
         assertEquals(30, velociraptor.getAttackPower());
     }
+
+    @Test
+    public void canGetDinosaurToAttackFence(){
+        assertEquals(70,  carnivorePaddock.getFenceDurability() - velociraptor.getAttackPower());
+    }
+
+//    have dinosaur attack fence until broken ( fenceDurability =< 0 )
+//    have dinosaur leave paddock ( removedinosaurfromCarnivorePaddock
+
+//    @Test
+//    public void canGetDinosaurToRampage(){
+//        carnivorePaddock.addDinosaur(velociraptor);
+//        velociraptor.canRampage(carnivorePaddock);
+//        assertEquals(1, carnivorePaddock.countDinosaurs());
+//    }
 
 
 

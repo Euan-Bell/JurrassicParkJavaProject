@@ -1,7 +1,6 @@
 package DinosaursTest;
 
 import Dinosaurs.DietType;
-import Dinosaurs.Diplodocus;
 import Dinosaurs.Eoraptor;
 import Dinosaurs.Food;
 import org.junit.Before;

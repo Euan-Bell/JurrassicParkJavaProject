@@ -1,5 +1,8 @@
 package Dinosaurs;
 
+import Paddocks.CarnivorePaddock;
+import Paddocks.Paddock;
+
 import java.util.ArrayList;
 
 
@@ -10,7 +13,7 @@ public abstract class Dinosaur {
     private String species;
     private double weight;
     private ArrayList<Dinosaurs.Food> stomach;
-    private int attackPower;
+    public int attackPower;
     private Dinosaurs.DietType dietType;
 
     public Dinosaur(String name, String species, Double weight, int attackPower, Dinosaurs.DietType DietType){
@@ -58,4 +61,17 @@ public abstract class Dinosaur {
     public Dinosaurs.DietType getDietType() {
         return dietType;
     }
+
+//    public void canRampage(Paddock paddock) {
+//        while (paddock.getFenceDurability() >= 0 - this.getAttackPower()){
+//            paddock.removeDinosaur(this);
+//        }
+//    }
+
+//    public void canRampage(Paddock paddock){
+//        paddock.setFenceDurability(paddock.getFenceDurability() - this.getAttackPower())
+//     if (paddock.getFenceDurability() <= 0)
+//            paddock.removeDinosaur(this);
+//        }
+//    }
 }

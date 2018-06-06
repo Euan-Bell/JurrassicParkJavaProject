@@ -100,4 +100,10 @@ public class CarnivorePaddockTest {
         assertEquals(0, carnivorePaddock.countDinosaurs());
     }
 
+    @Test
+    public void canSetFenceDurability(){
+        carnivorePaddock.setFenceDurability(100);
+        assertEquals(100, carnivorePaddock.getFenceDurability());
+    }
+
 }
