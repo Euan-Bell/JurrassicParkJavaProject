@@ -3,6 +3,8 @@ package DinosaursTest;
 import Dinosaurs.DietType;
 import Dinosaurs.Eoraptor;
 import Dinosaurs.Food;
+import Paddocks.HerbivorePaddock;
+import Paddocks.OmnivorePaddock;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,6 +16,7 @@ public class EoraptorTest {
     Food food;
     Food food1;
     Food food2;
+    OmnivorePaddock omnivorePaddock;
 
     @Before
     public void before(){
@@ -21,7 +24,9 @@ public class EoraptorTest {
         food = new Food("PlantLife", DietType.HERBIVORE);
         food1 = new Food("CowChunks",DietType.CARNIVORE);
         food2 = new Food("Chicken Stirfry", DietType.OMNIVORE);
+        omnivorePaddock = new OmnivorePaddock("Eoraptor Paddock", DietType.CARNIVORE, 100);
     }
+
 
     @Test
     public void canGetName(){
@@ -57,6 +62,12 @@ public class EoraptorTest {
     @Test
     public void canGetDietType(){
         assertEquals(DietType.OMNIVORE, eoraptor.getDietType());
+    }
+
+    @Test
+    public void canGetDinosaurToAttackFence(){
+        eoraptor.attackFence(omnivorePaddock);
+        assertEquals(90, omnivorePaddock.getFenceDurability());
     }
 
 }
