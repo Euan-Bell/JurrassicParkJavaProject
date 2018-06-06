@@ -1,4 +1,4 @@
-package DinosaursTest;
+package Dinosaurs;
 
 import Dinosaurs.DietType;
 import Dinosaurs.Dinosaur;
