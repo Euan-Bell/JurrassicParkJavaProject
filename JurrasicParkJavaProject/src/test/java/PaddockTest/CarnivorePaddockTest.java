@@ -106,4 +106,11 @@ public class CarnivorePaddockTest {
         assertEquals(100, carnivorePaddock.getFenceDurability());
     }
 
+//    @Test
+//    public void canCheckIfFenceIsDestroyed(){
+//        velociraptor.attackFence(carnivorePaddock);
+//        assertEquals(false, carnivorePaddock.fenceDestroyed());
+//
+//    }
+
 }

@@ -83,6 +83,13 @@ public class VelociraptorTest {
         assertEquals(70, carnivorePaddock.getFenceDurability());
     }
 
+//    @Test
+//    public void canGetDinosaurToRampage(){
+//        carnivorePaddock.addDinosaur(velociraptor);
+//
+//
+//    }
+
 //    have dinosaur attack fence until broken ( fenceDurability =< 0 )
 //    have dinosaur leave paddock ( removedinosaurfromCarnivorePaddock
 
@@ -93,7 +100,7 @@ public class VelociraptorTest {
 //        assertEquals(1, carnivorePaddock.countDinosaurs());
 //    }
 
-   
+
 
 
 }

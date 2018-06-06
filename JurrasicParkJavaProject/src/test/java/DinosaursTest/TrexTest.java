@@ -3,6 +3,7 @@ package DinosaursTest;
 import Dinosaurs.DietType;
 import Dinosaurs.Food;
 import Dinosaurs.Trex;
+import Paddocks.CarnivorePaddock;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -16,6 +17,7 @@ public class TrexTest {
     Food food;
     Food food1;
     Food food2;
+    CarnivorePaddock carnivorePaddock;
 
     @Before
     public void before() {
@@ -23,7 +25,9 @@ public class TrexTest {
         food = new Food("CowChunks", DietType.CARNIVORE);
         food1 = new Food("PlantLife", DietType.HERBIVORE);
         food2 = new Food("Chicken StirFry", DietType.OMNIVORE);
+        carnivorePaddock = new CarnivorePaddock("Velociraptor Paddock", DietType.CARNIVORE, 100);
     }
+
 
     @Test
     public void canGetName(){
@@ -71,5 +75,11 @@ public class TrexTest {
     @Test
     public void canGetAttackPower(){
         assertEquals(100, trex.getAttackPower());
+    }
+
+    @Test
+    public void canGetDinosaurToAttackFence(){
+        trex.attackFence(carnivorePaddock);
+        assertEquals(0, carnivorePaddock.getFenceDurability());
     }
 }

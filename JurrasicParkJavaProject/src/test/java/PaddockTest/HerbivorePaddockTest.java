@@ -103,6 +103,8 @@ public class HerbivorePaddockTest {
         herbivorePaddock.setFenceDurability(100);
         assertEquals(100, herbivorePaddock.getFenceDurability());
     }
+
+
 }
 
 
