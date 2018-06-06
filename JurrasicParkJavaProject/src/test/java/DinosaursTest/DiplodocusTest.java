@@ -70,5 +70,6 @@ public class DiplodocusTest {
     public void canGetDietType(){
         assertEquals(DietType.HERBIVORE, diplodocus.getDietType());
    }
+   
 
 }
