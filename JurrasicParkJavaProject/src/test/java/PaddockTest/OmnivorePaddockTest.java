@@ -83,6 +83,13 @@ public class OmnivorePaddockTest {
         omnivorePaddock.addDinosaur(diplodocus);
         assertEquals(0, omnivorePaddock.countDinosaurs());
     }
+
+
+    @Test
+    public void canSetFenceDurability(){
+        omnivorePaddock.setFenceDurability(100);
+        assertEquals(100, omnivorePaddock.getFenceDurability());
+    }
 }
 
 
