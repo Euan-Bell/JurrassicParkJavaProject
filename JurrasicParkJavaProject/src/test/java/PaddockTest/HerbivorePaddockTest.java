@@ -97,6 +97,12 @@ public class HerbivorePaddockTest {
         herbivorePaddock.addDinosaur(eoraptor);
         assertEquals(0, herbivorePaddock.countDinosaurs());
     }
+
+    @Test
+    public void canSetFenceDurability(){
+        herbivorePaddock.setFenceDurability(100);
+        assertEquals(100, herbivorePaddock.getFenceDurability());
+    }
 }
 
 
