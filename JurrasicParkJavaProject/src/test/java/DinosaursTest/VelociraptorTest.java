@@ -16,16 +16,16 @@ public class VelociraptorTest {
 
     Velociraptor velociraptor;
     Food food;
-    Food food1;
-    Food food2;
+    Food veg;
+    Food mixed;
     CarnivorePaddock carnivorePaddock;
 
     @Before
     public void before() {
         velociraptor = new Velociraptor("Iain", "Velociraptor", 00.15, 30, DietType.CARNIVORE);
         food = new Food("CowChunks", DietType.CARNIVORE);
-        food1 = new Food("PlantLife", DietType.HERBIVORE);
-        food2 = new Food("Chicken StirFry", DietType.OMNIVORE);
+        veg = new Food("PlantLife", DietType.HERBIVORE);
+        mixed = new Food("Chicken StirFry", DietType.OMNIVORE);
         carnivorePaddock = new CarnivorePaddock("Velociraptor Paddock", DietType.CARNIVORE, 100);
     }
 
@@ -61,14 +61,14 @@ public class VelociraptorTest {
     }
 
     @Test
-    public void canHaveVelociraptorUnableToEatAnythingOtherThanDietType(){
-        velociraptor.feedDinosaur(food1);
+    public void canHaveVelociraptorUnableToEatHerbivoreDietType(){
+        velociraptor.feedDinosaur(veg);
         assertEquals(0, velociraptor.canBeFed());
     }
 
     @Test
-    public void canHaveVelociraptorUnableToEatAnythingOtherThanDietType2(){
-        velociraptor.feedDinosaur(food2);
+    public void canHaveVelociraptorUnableToEatOmnivoreDietType(){
+        velociraptor.feedDinosaur(mixed);
         assertEquals(0, velociraptor.canBeFed());
     }
 
@@ -83,24 +83,37 @@ public class VelociraptorTest {
         assertEquals(70, carnivorePaddock.getFenceDurability());
     }
 
-//    @Test
-//    public void canGetDinosaurToRampage(){
-//        carnivorePaddock.addDinosaur(velociraptor);
-//
-//
-//    }
+    @Test
+    public void canDinosaurEscape(){
+        carnivorePaddock.setFenceDurability(30);
+        carnivorePaddock.addDinosaur(velociraptor);
+        velociraptor.attackFence(carnivorePaddock);
+        velociraptor.escape(carnivorePaddock);
+        assertEquals(0,carnivorePaddock.countDinosaurs());
+    }
 
-//    have dinosaur attack fence until broken ( fenceDurability =< 0 )
-//    have dinosaur leave paddock ( removedinosaurfromCarnivorePaddock
+    @Test
+    public void canDinosaurEscapeFails(){
+        carnivorePaddock.setFenceDurability(100);
+        carnivorePaddock.addDinosaur(velociraptor);
+        velociraptor.attackFence(carnivorePaddock);
+        velociraptor.escape(carnivorePaddock);
+        assertEquals(1,carnivorePaddock.countDinosaurs());
+    }
 
-//    @Test
-//    public void canGetDinosaurToRampage(){
-//        carnivorePaddock.addDinosaur(velociraptor);
-//        velociraptor.canRampage(carnivorePaddock);
-//        assertEquals(1, carnivorePaddock.countDinosaurs());
-//    }
-
-
-
+    @Test
+    public void canDinosaurEscapeAfterSeveralAttacks(){
+        carnivorePaddock.setFenceDurability(60);
+        carnivorePaddock.addDinosaur(velociraptor);
+        velociraptor.attackFence(carnivorePaddock);
+        velociraptor.attackFence(carnivorePaddock);
+        velociraptor.escape(carnivorePaddock);
+        assertEquals(0,carnivorePaddock.countDinosaurs());
+    }
 
 }
+
+
+
+
+

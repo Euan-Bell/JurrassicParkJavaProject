@@ -13,16 +13,16 @@ public class DiplodocusTest {
 
     Diplodocus diplodocus;
     Food food;
-    Food food1;
-    Food food2;
+    Food meat;
+    Food mixed;
     HerbivorePaddock herbivorePaddock;
 
     @Before
     public void before(){
         diplodocus = new Diplodocus("Allan", "Diplodocus",15.00, 70, DietType.HERBIVORE);
         food = new Food("PlantLife", DietType.HERBIVORE);
-        food1 = new Food("CowChunks",DietType.CARNIVORE);
-        food2 = new Food("Chicken Stirfry", DietType.OMNIVORE);
+        meat = new Food("CowChunks",DietType.CARNIVORE);
+        mixed = new Food("Chicken Stirfry", DietType.OMNIVORE);
         herbivorePaddock = new HerbivorePaddock("Diplodocus Paddock", DietType.HERBIVORE, 100);
     }
 
@@ -53,14 +53,14 @@ public class DiplodocusTest {
     }
 
     @Test
-    public void canHaveDiplodocusUnableToEatAnythingOtherThanDietType(){
-        diplodocus.feedDinosaur(food1);
+    public void canHaveDiplodocusUnableToEatCarnivoreDietType(){
+        diplodocus.feedDinosaur(meat);
         assertEquals(0, diplodocus.canBeFed());
     }
 
     @Test
-    public void canHaveDiplodocusUnableToEatAnythingOtherThanDietType2(){
-        diplodocus.feedDinosaur(food2);
+    public void canHaveDiplodocusUnableToEatOmnivoreDietType(){
+        diplodocus.feedDinosaur(mixed);
         assertEquals(0, diplodocus.canBeFed());
     }
 
