@@ -107,10 +107,17 @@ public class CarnivorePaddockTest {
     }
 
     @Test
-    public void canCheckIfFenceIsBroken(){
+    public void canCheckIfFenceIsBrokenTrue(){
         carnivorePaddock.setFenceDurability(100);
         trex.attackFence(carnivorePaddock);
         assertEquals(true, carnivorePaddock.fenceBroken());
+    }
+
+    @Test
+    public void canCheckIfFenceIsBrokenFalse(){
+        carnivorePaddock.setFenceDurability(200);
+        trex.attackFence(carnivorePaddock);
+        assertEquals(false, carnivorePaddock.fenceBroken());
     }
 
 //    @Test
