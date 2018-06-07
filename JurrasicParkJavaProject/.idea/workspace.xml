@@ -34,8 +34,8 @@
       <file leaf-file-name="CarnivorePaddockTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+            <state relative-caret-position="175">
+              <caret line="138" column="26" lean-forward="false" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1036#1037#0" expanded="true" />
@@ -46,7 +46,7 @@
                 <element signature="e#1364#1365#0" expanded="true" />
                 <element signature="e#1429#1430#0" expanded="true" />
                 <element signature="e#1494#1495#0" expanded="true" />
-                <marker date="1528363925101" expanded="true" signature="3629:3817" ph="..." />
+                <marker date="1528364091276" expanded="true" signature="4381:4569" ph="..." />
               </folding>
             </state>
           </provider>
@@ -664,7 +664,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenFalse">
+  <component name="RunManager" selected="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -731,6 +731,56 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="PaddockTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JurrasicParkJavaProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PaddockTest" />
+      <option name="MAIN_CLASS_NAME" value="PaddockTest.CarnivorePaddockTest" />
+      <option name="METHOD_NAME" value="canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="PaddockTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JurrasicParkJavaProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PaddockTest" />
+      <option name="MAIN_CLASS_NAME" value="PaddockTest.CarnivorePaddockTest" />
+      <option name="METHOD_NAME" value="canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -744,56 +794,6 @@
       <option name="PACKAGE_NAME" value="PaddockTest" />
       <option name="MAIN_CLASS_NAME" value="PaddockTest.CarnivorePaddockTest" />
       <option name="METHOD_NAME" value="canCheckIfFenceIsBrokenFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="DiplodocusTest.canGetDinosaurToAttackFence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="DinosaursTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JurrasicParkJavaProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DinosaursTest" />
-      <option name="MAIN_CLASS_NAME" value="DinosaursTest.DiplodocusTest" />
-      <option name="METHOD_NAME" value="canGetDinosaurToAttackFence" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="EoraptorTest.canGetDinosaurToAttackFence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="DinosaursTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JurrasicParkJavaProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="DinosaursTest" />
-      <option name="MAIN_CLASS_NAME" value="DinosaursTest.EoraptorTest" />
-      <option name="METHOD_NAME" value="canGetDinosaurToAttackFence" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -867,19 +867,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDinosaurToAttackFence" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.EoraptorTest.canGetDinosaurToAttackFence" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBroken" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenFalse" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBroken" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenFalse" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenFalse" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBroken" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EoraptorTest.canGetDinosaurToAttackFence" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DiplodocusTest.canGetDinosaurToAttackFence" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBrokenFalse" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in JurrasicParkJavaProject_test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.CarnivorePaddockTest.canCheckIfFenceIsBroken" />
       </list>
     </recent_temporary>
   </component>
@@ -909,6 +909,15 @@
     <history-entry file="CarnivorePaddockTest_canCheckIfFenceIsBroken - 2018.06.07 at 10h 25m 36s.xml">
       <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBroken" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CarnivorePaddockTest_canCheckIfFenceIsBrokenAfterSeveralAttacksFalse - 2018.06.07 at 10h 34m 21s.xml">
+      <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarnivorePaddockTest_canCheckIfFenceIsBrokenAfterSeveralAttacksFalse - 2018.06.07 at 10h 34m 53s.xml">
+      <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CarnivorePaddockTest_canCheckIfFenceIsBrokenAfterSeveralAttacksTrue - 2018.06.07 at 10h 33m 53s.xml">
+      <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="CarnivorePaddockTest_canCheckIfFenceIsBrokenFalse - 2018.06.07 at 10h 32m 08s.xml">
       <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenFalse" configurationId="JUnit" />
     </history-entry>
@@ -920,15 +929,6 @@
     </history-entry>
     <history-entry file="StegosaurusTest_canGetDinosaurToAttackFence - 2018.06.06 at 19h 41m 06s.xml">
       <configuration name="StegosaurusTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrexTest_canGetDinosaurToAttackFence - 2018.06.06 at 19h 36m 43s.xml">
-      <configuration name="TrexTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrexTest_canGetDinosaurToAttackFence - 2018.06.06 at 19h 36m 53s.xml">
-      <configuration name="TrexTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="VelociraptorTest_canGetDinosaurToAttackFence - 2018.06.06 at 16h 20m 00s.xml">
-      <configuration name="VelociraptorTest.canGetDinosaurToAttackFence" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -1021,7 +1021,7 @@
             <element signature="e#1364#1365#0" expanded="true" />
             <element signature="e#1429#1430#0" expanded="true" />
             <element signature="e#1494#1495#0" expanded="true" />
-            <marker date="1528363925101" expanded="true" signature="3629:3817" ph="..." />
+            <marker date="1528364091276" expanded="true" signature="4381:4569" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1404,8 +1404,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+        <state relative-caret-position="175">
+          <caret line="138" column="26" lean-forward="false" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1036#1037#0" expanded="true" />
@@ -1416,7 +1416,7 @@
             <element signature="e#1364#1365#0" expanded="true" />
             <element signature="e#1429#1430#0" expanded="true" />
             <element signature="e#1494#1495#0" expanded="true" />
-            <marker date="1528363925101" expanded="true" signature="3629:3817" ph="..." />
+            <marker date="1528364091276" expanded="true" signature="4381:4569" ph="..." />
           </folding>
         </state>
       </provider>

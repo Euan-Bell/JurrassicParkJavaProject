@@ -120,6 +120,25 @@ public class CarnivorePaddockTest {
         assertEquals(false, carnivorePaddock.fenceBroken());
     }
 
+    @Test
+    public void canCheckIfFenceIsBrokenAfterSeveralAttacksTrue(){
+        carnivorePaddock.setFenceDurability(100);
+        velociraptor.attackFence(carnivorePaddock);
+        velociraptor.attackFence(carnivorePaddock);
+        velociraptor.attackFence(carnivorePaddock);
+        velociraptor.attackFence(carnivorePaddock);
+        assertEquals(true, carnivorePaddock.fenceBroken());
+    }
+
+    @Test
+    public void canCheckIfFenceIsBrokenAfterSeveralAttacksFalse(){
+        carnivorePaddock.setFenceDurability(100);
+        velociraptor.attackFence(carnivorePaddock);
+        velociraptor.attackFence(carnivorePaddock);
+        velociraptor.attackFence(carnivorePaddock);
+        assertEquals(false, carnivorePaddock.fenceBroken());
+    }
+
 //    @Test
 //    public void canCheckIfFenceIsDestroyed(){
 //        velociraptor.attackFence(carnivorePaddock);
