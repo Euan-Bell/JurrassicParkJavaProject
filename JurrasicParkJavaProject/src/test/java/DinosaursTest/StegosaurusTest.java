@@ -24,7 +24,7 @@ public class StegosaurusTest {
         food = new Food("PlantLife", DietType.HERBIVORE);
         food1 = new Food("CowChunks",DietType.CARNIVORE);
         food2 = new Food("Chicken Stirfry", DietType.OMNIVORE);
-        herbivorePaddock = new HerbivorePaddock("Velociraptor Paddock", DietType.CARNIVORE, 100);
+        herbivorePaddock = new HerbivorePaddock("Stegosarus Paddock", DietType.CARNIVORE, 100);
     }
 
 

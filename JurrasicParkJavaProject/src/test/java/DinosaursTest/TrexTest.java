@@ -25,7 +25,7 @@ public class TrexTest {
         food = new Food("CowChunks", DietType.CARNIVORE);
         food1 = new Food("PlantLife", DietType.HERBIVORE);
         food2 = new Food("Chicken StirFry", DietType.OMNIVORE);
-        carnivorePaddock = new CarnivorePaddock("Velociraptor Paddock", DietType.CARNIVORE, 100);
+        carnivorePaddock = new CarnivorePaddock("Trex Paddock", DietType.CARNIVORE, 100);
     }
 
 
