@@ -3,7 +3,6 @@ package DinosaursTest;
 import Dinosaurs.DietType;
 import Dinosaurs.Eoraptor;
 import Dinosaurs.Food;
-import Paddocks.HerbivorePaddock;
 import Paddocks.OmnivorePaddock;
 import org.junit.Before;
 import org.junit.Test;

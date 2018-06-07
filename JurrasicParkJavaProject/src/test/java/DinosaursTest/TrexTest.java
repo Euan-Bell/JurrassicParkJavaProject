@@ -15,16 +15,16 @@ public class TrexTest {
 
     Trex trex;
     Food food;
-    Food food1;
-    Food food2;
+    Food veg;
+    Food mixed;
     CarnivorePaddock carnivorePaddock;
 
     @Before
     public void before() {
         trex = new Trex("Hammond", "Trex", 09.00, 100, DietType.CARNIVORE);
         food = new Food("CowChunks", DietType.CARNIVORE);
-        food1 = new Food("PlantLife", DietType.HERBIVORE);
-        food2 = new Food("Chicken StirFry", DietType.OMNIVORE);
+        veg = new Food("PlantLife", DietType.HERBIVORE);
+        mixed = new Food("Chicken StirFry", DietType.OMNIVORE);
         carnivorePaddock = new CarnivorePaddock("Trex Paddock", DietType.CARNIVORE, 100);
     }
 
@@ -62,13 +62,13 @@ public class TrexTest {
 
     @Test
     public void canHaveTrexUnableToEatHerbivoreDietType(){
-        trex.feedDinosaur(food1);
+        trex.feedDinosaur(veg);
         assertEquals(0, trex.canBeFed());
     }
 
     @Test
     public void canHaveTrexUnableToEatOmnivoreDietType(){
-        trex.feedDinosaur(food2);
+        trex.feedDinosaur(mixed);
         assertEquals(0, trex.canBeFed());
     }
 

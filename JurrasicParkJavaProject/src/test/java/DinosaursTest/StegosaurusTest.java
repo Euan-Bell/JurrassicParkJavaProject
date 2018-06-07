@@ -13,16 +13,16 @@ public class StegosaurusTest {
 
     Stegosaurus stegosaurus;
     Food food;
-    Food food1;
-    Food food2;
+    Food meat;
+    Food mixed;
     HerbivorePaddock herbivorePaddock;
 
     @Before
     public void before(){
         stegosaurus = new Stegosaurus("Henry", "Stegosaurus",07.00, 50, DietType.HERBIVORE);
         food = new Food("PlantLife", DietType.HERBIVORE);
-        food1 = new Food("CowChunks",DietType.CARNIVORE);
-        food2 = new Food("Chicken Stirfry", DietType.OMNIVORE);
+        meat = new Food("CowChunks",DietType.CARNIVORE);
+        mixed = new Food("Chicken Stirfry", DietType.OMNIVORE);
         herbivorePaddock = new HerbivorePaddock("Stegosarus Paddock", DietType.HERBIVORE, 100);
     }
 
@@ -55,13 +55,13 @@ public class StegosaurusTest {
 
     @Test
     public void canHaveStegosaurusUnableToEatCarnivoreDietType(){
-        stegosaurus.feedDinosaur(food1);
+        stegosaurus.feedDinosaur(meat);
         assertEquals(0, stegosaurus.canBeFed());
     }
 
     @Test
     public void canHaveStegosaurusUnableToEatOmnivoreDietType(){
-        stegosaurus.feedDinosaur(food2);
+        stegosaurus.feedDinosaur(mixed);
         assertEquals(0, stegosaurus.canBeFed());
     }
 
