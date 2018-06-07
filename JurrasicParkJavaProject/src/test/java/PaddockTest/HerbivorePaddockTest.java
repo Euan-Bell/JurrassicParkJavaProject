@@ -118,6 +118,22 @@ public class HerbivorePaddockTest {
         assertEquals(false, herbivorePaddock.fenceBroken());
     }
 
+    @Test
+    public void canCheckIfFenceIsBrokenAfterSeveralAttacksTrue(){
+        herbivorePaddock.setFenceDurability(100);
+        diplodocus.attackFence(herbivorePaddock);
+        diplodocus.attackFence(herbivorePaddock);
+        assertEquals(true, herbivorePaddock.fenceBroken());
+    }
+
+    @Test
+    public void canCheckIfFenceIsBrokenAfterSeveralAttacksFalse(){
+        herbivorePaddock.setFenceDurability(200);
+        diplodocus.attackFence(herbivorePaddock);
+        diplodocus.attackFence(herbivorePaddock);
+        assertEquals(false, herbivorePaddock.fenceBroken());
+    }
+
 
 }
 
