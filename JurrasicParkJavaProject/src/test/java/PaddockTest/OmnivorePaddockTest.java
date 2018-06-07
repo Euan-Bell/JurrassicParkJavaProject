@@ -90,6 +90,40 @@ public class OmnivorePaddockTest {
         omnivorePaddock.setFenceDurability(100);
         assertEquals(100, omnivorePaddock.getFenceDurability());
     }
+
+    @Test
+    public void canCheckIfFenceIsBrokenTrue(){
+        omnivorePaddock.setFenceDurability(10);
+        eoraptor.attackFence(omnivorePaddock);
+        assertEquals(true, omnivorePaddock.fenceBroken());
+    }
+
+    @Test
+    public void canCheckIfFenceIsBrokenFalse(){
+        omnivorePaddock.setFenceDurability(100);
+        eoraptor.attackFence(omnivorePaddock);
+        assertEquals(false, omnivorePaddock.fenceBroken());
+    }
+
+    @Test
+    public void canCheckIfFenceIsBrokenAfterSeveralAttacksTrue(){
+        omnivorePaddock.setFenceDurability(40);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.attackFence(omnivorePaddock);
+        assertEquals(true, omnivorePaddock.fenceBroken());
+    }
+
+    @Test
+    public void canCheckIfFenceIsBrokenAfterSeveralAttacksFalse(){
+        omnivorePaddock.setFenceDurability(100);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.attackFence(omnivorePaddock);
+        assertEquals(false, omnivorePaddock.fenceBroken());
+    }
 }
 
 
