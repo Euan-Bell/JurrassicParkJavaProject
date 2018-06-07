@@ -67,6 +67,12 @@ public abstract class Dinosaur {
 
     }
 
+    public void escape(Paddock paddock) {
+        if (paddock.fenceBroken()){
+            paddock.removeDinosaur(this);
+        }
+    }
+
 
 //    public void canRampage(Paddock paddock) {
 //        while (paddock.getFenceDurability() >= 0 - this.getAttackPower()){

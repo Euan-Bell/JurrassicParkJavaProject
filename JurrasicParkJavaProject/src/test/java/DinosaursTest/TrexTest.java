@@ -82,4 +82,31 @@ public class TrexTest {
         trex.attackFence(carnivorePaddock);
         assertEquals(0, carnivorePaddock.getFenceDurability());
     }
+
+    @Test
+    public void canDinosaurEscape(){
+        carnivorePaddock.addDinosaur(trex);
+        trex.attackFence(carnivorePaddock);
+        trex.escape(carnivorePaddock);
+        assertEquals(0,carnivorePaddock.countDinosaurs());
+    }
+
+    @Test
+    public void canDinosaurEscapeFails(){
+        carnivorePaddock.setFenceDurability(200);
+        carnivorePaddock.addDinosaur(trex);
+        trex.attackFence(carnivorePaddock);
+        trex.escape(carnivorePaddock);
+        assertEquals(1,carnivorePaddock.countDinosaurs());
+    }
+
+    @Test
+    public void canDinosaurEscapeAfterSeveralAttacks(){
+        carnivorePaddock.setFenceDurability(200);
+        carnivorePaddock.addDinosaur(trex);
+        trex.attackFence(carnivorePaddock);
+        trex.attackFence(carnivorePaddock);
+        trex.escape(carnivorePaddock);
+        assertEquals(0,carnivorePaddock.countDinosaurs());
+    }
 }

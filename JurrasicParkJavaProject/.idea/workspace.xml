@@ -34,8 +34,8 @@
       <file leaf-file-name="CarnivorePaddockTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="108" column="2" lean-forward="false" selection-start-line="108" selection-start-column="2" selection-end-line="120" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="119" column="58" lean-forward="true" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1036#1037#0" expanded="true" />
@@ -86,6 +86,24 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Dinosaur.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1215#1216#0" expanded="true" />
+                <element signature="e#1254#1255#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+                <element signature="e#1332#1333#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="VelociraptorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/VelociraptorTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,11 +137,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TrexTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TrexTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/TrexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-564">
-              <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+            <state relative-caret-position="280">
+              <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#787#788#0" expanded="true" />
@@ -146,7 +164,7 @@
       <file leaf-file-name="Paddock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Paddocks/Paddock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
+            <state relative-caret-position="276">
               <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -163,11 +181,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OmnivorePaddockTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OmnivorePaddockTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/OmnivorePaddockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="119" column="45" lean-forward="false" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
+            <state relative-caret-position="1171">
+              <caret line="124" column="59" lean-forward="true" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#872#873#0" expanded="true" />
@@ -192,20 +210,6 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#1515#1516#0" expanded="true" />
                 <element signature="e#1586#1587#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiplodocusTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/DiplodocusTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="813">
-              <caret line="82" column="0" lean-forward="true" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1869#1870#0" expanded="true" />
-                <element signature="e#1942#1943#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -533,16 +537,16 @@
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Trex.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/Stegosaurus.java" />
         <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Stegosaurus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/VelociraptorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/DiplodocusTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/EoraptorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/StegosaurusTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/TrexTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Paddocks/Paddock.java" />
         <option value="$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PaddockTest/HerbivorePaddockTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PaddockTest/OmnivorePaddockTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DinosaursTest/TrexTest.java" />
       </list>
     </option>
   </component>
@@ -671,7 +675,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OmnivorePaddockTest">
+  <component name="RunManager" selected="JUnit.TrexTest.canDinosaurEscapeAfterSeveralAttacks">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -718,81 +722,6 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="HerbivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="PaddockTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JurrasicParkJavaProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PaddockTest" />
-      <option name="MAIN_CLASS_NAME" value="PaddockTest.HerbivorePaddockTest" />
-      <option name="METHOD_NAME" value="canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="HerbivorePaddockTest.canCheckIfFenceIsBrokenFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="PaddockTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JurrasicParkJavaProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PaddockTest" />
-      <option name="MAIN_CLASS_NAME" value="PaddockTest.HerbivorePaddockTest" />
-      <option name="METHOD_NAME" value="canCheckIfFenceIsBrokenFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="HerbivorePaddockTest.canCheckIfFenceIsBrokenTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="PaddockTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JurrasicParkJavaProject_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="PaddockTest" />
-      <option name="MAIN_CLASS_NAME" value="PaddockTest.HerbivorePaddockTest" />
-      <option name="METHOD_NAME" value="canCheckIfFenceIsBrokenTrue" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
     <configuration name="OmnivorePaddockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -807,6 +736,81 @@
       <option name="MAIN_CLASS_NAME" value="PaddockTest.OmnivorePaddockTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TrexTest.canDinosaurEscape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DinosaursTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JurrasicParkJavaProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DinosaursTest" />
+      <option name="MAIN_CLASS_NAME" value="DinosaursTest.TrexTest" />
+      <option name="METHOD_NAME" value="canDinosaurEscape" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TrexTest.canDinosaurEscapeAfterSeveralAttacks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DinosaursTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JurrasicParkJavaProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DinosaursTest" />
+      <option name="MAIN_CLASS_NAME" value="DinosaursTest.TrexTest" />
+      <option name="METHOD_NAME" value="canDinosaurEscapeAfterSeveralAttacks" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="TrexTest.canDinosaurEscapeFails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DinosaursTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JurrasicParkJavaProject_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="DinosaursTest" />
+      <option name="MAIN_CLASS_NAME" value="DinosaursTest.TrexTest" />
+      <option name="METHOD_NAME" value="canDinosaurEscapeFails" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -879,19 +883,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenTrue" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenFalse" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.OmnivorePaddockTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.OmnivorePaddockTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TrexTest.canDinosaurEscape" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TrexTest.canDinosaurEscapeFails" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TrexTest.canDinosaurEscapeAfterSeveralAttacks" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.OmnivorePaddockTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenFalse" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenTrue" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TrexTest.canDinosaurEscapeAfterSeveralAttacks" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TrexTest.canDinosaurEscapeFails" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TrexTest.canDinosaurEscape" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.OmnivorePaddockTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HerbivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" />
       </list>
     </recent_temporary>
   </component>
@@ -912,18 +916,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CarnivorePaddockTest_canCheckIfFenceIsBrokenAfterSeveralAttacksFalse - 2018.06.07 at 10h 34m 21s.xml">
-      <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarnivorePaddockTest_canCheckIfFenceIsBrokenAfterSeveralAttacksFalse - 2018.06.07 at 10h 34m 53s.xml">
-      <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarnivorePaddockTest_canCheckIfFenceIsBrokenAfterSeveralAttacksTrue - 2018.06.07 at 10h 33m 53s.xml">
-      <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CarnivorePaddockTest_canCheckIfFenceIsBrokenFalse - 2018.06.07 at 10h 32m 08s.xml">
-      <configuration name="CarnivorePaddockTest.canCheckIfFenceIsBrokenFalse" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HerbivorePaddockTest_canCheckIfFenceIsBrokenAfterSeveralAttacksFalse - 2018.06.07 at 10h 38m 47s.xml">
       <configuration name="HerbivorePaddockTest.canCheckIfFenceIsBrokenAfterSeveralAttacksFalse" configurationId="JUnit" />
     </history-entry>
@@ -942,6 +934,18 @@
     <history-entry file="OmnivorePaddockTest - 2018.06.07 at 10h 43m 14s.xml">
       <configuration name="OmnivorePaddockTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TrexTest_canDinosaurEscape - 2018.06.07 at 10h 53m 32s.xml">
+      <configuration name="TrexTest.canDinosaurEscape" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrexTest_canDinosaurEscape - 2018.06.07 at 11h 06m 03s.xml">
+      <configuration name="TrexTest.canDinosaurEscape" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrexTest_canDinosaurEscapeAfterSeveralAttacks - 2018.06.07 at 11h 09m 52s.xml">
+      <configuration name="TrexTest.canDinosaurEscapeAfterSeveralAttacks" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrexTest_canDinosaurEscapeFails - 2018.06.07 at 11h 09m 02s.xml">
+      <configuration name="TrexTest.canDinosaurEscapeFails" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="777" extended-state="0" />
@@ -955,7 +959,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32776934" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1244,22 +1248,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="65" column="89" lean-forward="false" selection-start-line="65" selection-start-column="89" selection-end-line="65" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1254#1255#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1338,65 +1326,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/TrexTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-564">
-          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1210#1211#0" expanded="true" />
-            <element signature="e#1258#1259#0" expanded="true" />
-            <element signature="e#1747#1748#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Paddocks/Paddock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#642#643#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#719#720#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="108" column="2" lean-forward="false" selection-start-line="108" selection-start-column="2" selection-end-line="120" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <marker date="1528364091276" expanded="true" signature="4381:4569" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/HerbivorePaddockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1417,8 +1346,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/OmnivorePaddockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="119" column="45" lean-forward="false" selection-start-line="119" selection-start-column="45" selection-end-line="119" selection-end-column="45" />
+        <state relative-caret-position="1171">
+          <caret line="124" column="59" lean-forward="true" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#872#873#0" expanded="true" />
@@ -1429,6 +1358,81 @@
             <element signature="e#1192#1193#0" expanded="true" />
             <element signature="e#1256#1257#0" expanded="true" />
             <element signature="e#1320#1321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PaddockTest/CarnivorePaddockTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="119" column="58" lean-forward="true" selection-start-line="119" selection-start-column="29" selection-end-line="119" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1036#1037#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
+            <element signature="e#1160#1161#0" expanded="true" />
+            <element signature="e#1240#1241#0" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1429#1430#0" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <marker date="1528364091276" expanded="true" signature="4381:4569" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Paddocks/Paddock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="59" column="21" lean-forward="true" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#547#548#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Dinosaurs/Dinosaur.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1215#1216#0" expanded="true" />
+            <element signature="e#1254#1255#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DinosaursTest/TrexTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#941#942#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1156#1157#0" expanded="true" />
+            <element signature="e#1210#1211#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1747#1748#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
           </folding>
         </state>
       </provider>
