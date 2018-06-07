@@ -80,5 +80,33 @@ public class DiplodocusTest {
         assertEquals(30, herbivorePaddock.getFenceDurability());
     }
 
+//    @Test
+//    public void canDinosaurEscape(){
+//        herbivorePaddock.setFenceDurability(70);
+//        herbivorePaddock.addDinosaur(diplodocus);
+//        diplodocus.attackFence(herbivorePaddock);
+//        diplodocus.escape(herbivorePaddock);
+//        assertEquals(0,herbivorePaddock.countDinosaurs());
+//    }
+//
+//    @Test
+//    public void canDinosaurEscapeFails(){
+//        herbivorePaddock.setFenceDurability(200);
+//        herbivorePaddock.addDinosaur(diplodocus);
+//        diplodocus.attackFence(herbivorePaddock);
+//        diplodocus.escape(herbivorePaddock);
+//        assertEquals(1,herbivorePaddock.countDinosaurs());
+//    }
+//
+//    @Test
+//    public void canDinosaurEscapeAfterSeveralAttacks(){
+//        carnivorePaddock.setFenceDurability(200);
+//        carnivorePaddock.addDinosaur(trex);
+//        trex.attackFence(carnivorePaddock);
+//        trex.attackFence(carnivorePaddock);
+//        trex.escape(carnivorePaddock);
+//        assertEquals(0,carnivorePaddock.countDinosaurs());
+//    }
+
 
 }

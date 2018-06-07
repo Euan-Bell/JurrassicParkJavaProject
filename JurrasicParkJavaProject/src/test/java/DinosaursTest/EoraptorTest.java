@@ -24,7 +24,7 @@ public class EoraptorTest {
         food = new Food("PlantLife", DietType.HERBIVORE);
         food1 = new Food("CowChunks",DietType.CARNIVORE);
         food2 = new Food("Chicken Stirfry", DietType.OMNIVORE);
-        omnivorePaddock = new OmnivorePaddock("Eoraptor Paddock", DietType.CARNIVORE, 100);
+        omnivorePaddock = new OmnivorePaddock("Eoraptor Paddock", DietType.OMNIVORE, 100);
     }
 
 
@@ -70,6 +70,35 @@ public class EoraptorTest {
         assertEquals(90, omnivorePaddock.getFenceDurability());
     }
 
+    @Test
+    public void canDinosaurEscape(){
+        omnivorePaddock.setFenceDurability(10);
+        omnivorePaddock.addDinosaur(eoraptor);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.escape(omnivorePaddock);
+        assertEquals(0,omnivorePaddock.countDinosaurs());
+    }
+
+    @Test
+    public void canDinosaurEscapeFails(){
+        omnivorePaddock.setFenceDurability(100);
+        omnivorePaddock.addDinosaur(eoraptor);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.escape(omnivorePaddock);
+        assertEquals(1,omnivorePaddock.countDinosaurs());
+    }
+//
+    @Test
+    public void canDinosaurEscapeAfterSeveralAttacks(){
+        omnivorePaddock.setFenceDurability(20);
+        omnivorePaddock.addDinosaur(eoraptor);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.attackFence(omnivorePaddock);
+        eoraptor.escape(omnivorePaddock);
+        assertEquals(0,omnivorePaddock.countDinosaurs());
+    }
 }
+
+
 
 
