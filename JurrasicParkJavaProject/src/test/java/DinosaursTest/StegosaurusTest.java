@@ -3,7 +3,6 @@ package DinosaursTest;
 import Dinosaurs.DietType;
 import Dinosaurs.Food;
 import Dinosaurs.Stegosaurus;
-import Paddocks.CarnivorePaddock;
 import Paddocks.HerbivorePaddock;
 import org.junit.Before;
 import org.junit.Test;
@@ -24,7 +23,7 @@ public class StegosaurusTest {
         food = new Food("PlantLife", DietType.HERBIVORE);
         food1 = new Food("CowChunks",DietType.CARNIVORE);
         food2 = new Food("Chicken Stirfry", DietType.OMNIVORE);
-        herbivorePaddock = new HerbivorePaddock("Stegosarus Paddock", DietType.CARNIVORE, 100);
+        herbivorePaddock = new HerbivorePaddock("Stegosarus Paddock", DietType.HERBIVORE, 100);
     }
 
 
@@ -80,6 +79,34 @@ public class StegosaurusTest {
     public void canGetDinosaurToAttackFence(){
         stegosaurus.attackFence(herbivorePaddock);
         assertEquals(50, herbivorePaddock.getFenceDurability());
+    }
+
+    @Test
+    public void canDinosaurEscape(){
+        herbivorePaddock.setFenceDurability(50);
+        herbivorePaddock.addDinosaur(stegosaurus);
+        stegosaurus.attackFence(herbivorePaddock);
+        stegosaurus.escape(herbivorePaddock);
+        assertEquals(0,herbivorePaddock.countDinosaurs());
+    }
+
+    @Test
+    public void canDinosaurEscapeFails(){
+        herbivorePaddock.setFenceDurability(100);
+        herbivorePaddock.addDinosaur(stegosaurus);
+        stegosaurus.attackFence(herbivorePaddock);
+        stegosaurus.escape(herbivorePaddock);
+        assertEquals(1,herbivorePaddock.countDinosaurs());
+    }
+
+    @Test
+    public void canDinosaurEscapeAfterSeveralAttacks(){
+        herbivorePaddock.setFenceDurability(100);
+        herbivorePaddock.addDinosaur(stegosaurus);
+        stegosaurus.attackFence(herbivorePaddock);
+        stegosaurus.attackFence(herbivorePaddock);
+        stegosaurus.escape(herbivorePaddock);
+        assertEquals(0,herbivorePaddock.countDinosaurs());
     }
 }
 
