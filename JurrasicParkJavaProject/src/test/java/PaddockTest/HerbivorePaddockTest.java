@@ -104,6 +104,20 @@ public class HerbivorePaddockTest {
         assertEquals(100, herbivorePaddock.getFenceDurability());
     }
 
+    @Test
+    public void canCheckIfFenceIsBrokenTrue(){
+        herbivorePaddock.setFenceDurability(70);
+        diplodocus.attackFence(herbivorePaddock);
+        assertEquals(true, herbivorePaddock.fenceBroken());
+    }
+
+    @Test
+    public void canCheckIfFenceIsBrokenFalse(){
+        herbivorePaddock.setFenceDurability(100);
+        diplodocus.attackFence(herbivorePaddock);
+        assertEquals(false, herbivorePaddock.fenceBroken());
+    }
+
 
 }
 
